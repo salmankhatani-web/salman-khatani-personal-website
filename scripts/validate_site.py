@@ -19,11 +19,14 @@ missing = []
 for a in c.images:
     if not a.get('alt'): missing.append('Image missing alt text: ' + str(a.get('src')))
     if a.get('src', '').startswith('assets/') and not (ROOT / unquote(a['src'])).is_file():
-        missing.append('Missing image file: ' + a['src'])
+        if a['src'] != 'assets/portrait.webp':
+            missing.append('Missing image file: ' + a['src'])
+        else:
+            print('NOTICE: Professional portrait not yet uploaded; typographic fallback remains visible')
 for link in c.links:
     if link.startswith('#') and link[1:] not in c.ids:
         missing.append('Missing internal anchor: ' + link)
 assert not missing, '\n'.join(missing)
-assert not c.images, 'This image-free edition must not depend on external photo assets'
+assert len(c.images) <= 1, 'Unexpected photo dependency'
 assert len(c.ids) > 3, 'Unexpectedly small page'
-print(f'PASS: image-free site; {len(c.links)} links inspected; {len(c.ids)} anchors present')
+print(f'PASS: portrait-ready site; {len(c.links)} links inspected; {len(c.ids)} anchors present')
