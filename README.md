@@ -6,7 +6,7 @@ Independent personal website for Dr. Salman Ahmed Khatani, Pakistani futurist an
 GitHub Pages URL (once enabled and successfully deployed): https://salmankhatani-web.github.io/salman-khatani-personal-website/
 
 ## Current edition
-This is a **photo-free edition**, as requested. It uses lightweight typographic and gradient-based brand visuals; no video or image uploads are required. Original photographs may be added in a later revision if desired.
+The homepage now supports an optional **original professional portrait** (`assets/portrait.webp`). Until the photo is uploaded, the homepage shows the SK typographic mark, not a broken image. Upload the optimized portrait from the conversation at `assets/portrait.webp` in GitHub (Add file → Upload files). The rest of the gallery remains typographic and does not depend on photos. No video is included.
 
 ## Deployment
 Go to repository **Settings → Pages → Build and deployment → Source: GitHub Actions** if not enabled. Pushes to main run `.github/workflows/deploy.yml` to validate the website and deploy it. View status under Actions.
