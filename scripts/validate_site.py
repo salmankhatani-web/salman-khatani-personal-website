@@ -24,6 +24,6 @@ for link in c.links:
     if link.startswith('#') and link[1:] not in c.ids:
         missing.append('Missing internal anchor: ' + link)
 assert not missing, '\n'.join(missing)
-assert c.images, 'No images found'
+assert not c.images, 'This image-free edition must not depend on external photo assets'
 assert len(c.ids) > 3, 'Unexpectedly small page'
-print(f'PASS: {len(c.images)} images available; {len(c.links)} links inspected; {len(c.ids)} anchors present')
+print(f'PASS: image-free site; {len(c.links)} links inspected; {len(c.ids)} anchors present')
