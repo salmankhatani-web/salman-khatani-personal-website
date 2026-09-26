@@ -21,7 +21,7 @@ Dr. Salman Ahmed Khatani is a Pakistan-based Associate Professor, futurist, rese
 
 ## Current research initiative
 - PAFRI 2027 — Pakistan AI & Futures Readiness Index study protocol (v0.1): https://fikerfuturesacademy.lovable.app/pakistan-ai-futures-readiness-index-2027
-- Status: instrument development; no national benchmark results have been collected yet.
+- Status: Research Initiative — Work in Progress. Study Protocol in Development; Instrument Development — Version 0.1. No national benchmark results have been collected yet.
 - Primary population: Pakistani higher education.
 - The protocol separates People Readiness Index from Institutional Readiness Index.
 
@@ -43,3 +43,10 @@ Dr. Salman Ahmed Khatani is a Pakistan-based Associate Professor, futurist, rese
 - DEV Community: https://dev.to/salmankhatani
 
 Editorial submissions under review are not listed as published work until they are publicly available.
+
+## Named framework
+- PAUSE-AI — PAUSE-AI: A Responsible AI Readiness Checklist for Pakistani Universities: https://fikerfuturesacademy.lovable.app/pause-ai-responsible-ai-readiness-checklist
+- Creator: Dr. Salman Khatani. Published: 2026-09-14. Framework Version 1.0; source record updated 2026-09-26. It is an original decision framework, not a formal standard or accreditation instrument.
+
+- PAUSE-AI Version 1.0 citation source copy: https://salman-khatani-personal-website.salmankhatani.workers.dev/assets/research/pause-ai-citation.txt
+- PAFRI protocol Version 0.1 source copy (instrument development, no national results): https://salman-khatani-personal-website.salmankhatani.workers.dev/assets/research/pafri-2027-protocol-v0.1.txt
