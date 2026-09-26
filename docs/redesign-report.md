@@ -99,7 +99,7 @@ The requested Version 1.0 citation record was not found in the repository or on 
 
 ## 17. Preview references
 
-Supplied with delivery: desktop and mobile full-page screenshots, first-screen screenshots, Firefox/WebKit captures, research and evidence screenshots, source ZIP and this report. The review branch is intended for inspection before release.
+Supplied with delivery: desktop and mobile full-page screenshots, first-screen screenshots, Firefox/WebKit captures, research and evidence screenshots, source ZIP and this report. The review branch is intended for inspection before release: https://github.com/salmankhatani-web/salman-khatani-personal-website/pull/6.
 
 ## 18. Known limitations and release gates
 
@@ -108,7 +108,8 @@ Supplied with delivery: desktop and mobile full-page screenshots, first-screen s
 - Automated HEAD checks found 39 HTTP 200 responses and one 202 across 56 pre-existing external links. Other sources returned anti-bot/access responses (403/999) or a transient 503; these are not automatically classified as dead. The PAUSE-AI canonical page was separately fetched successfully.
 - PAUSE-AI Version 1.0 provenance is unconfirmed.
 - Production runs on a Cloudflare Workers domain, while the repository contains a GitHub Pages deployment workflow. No Workers configuration was available to validate or deploy.
-- No production deployment, merge, Search Console inspection, real-device assistive-technology audit or field Core Web Vitals measurement was performed.
+- The new GitHub validation workflow passed on the review commit. The pre-existing Cloudflare Workers build check failed on both the original main commit and the redesign commit; its exposed GitHub output does not identify the cause. Production was not successfully deployed by this task.
+- No merge, Search Console inspection, real-device assistive-technology audit or field Core Web Vitals measurement was performed.
 
 ## 19. Recommended next phase
 
