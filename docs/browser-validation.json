@@ -1,0 +1,724 @@
+{
+  "browsers": [
+    {
+      "browser": "Chrome",
+      "version": "154.0.8037.57",
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "version": "153.0",
+      "status": "passed"
+    },
+    {
+      "browser": "webkit",
+      "version": "26.5",
+      "status": "passed"
+    }
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/futures-studies-and-foresight/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/media/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/insights/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/research/futures-literacy-labs-climate-change/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/research/intuition-scenario-planning-iii/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/research/imagining-with-imaginables/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/insights/pakistan-2035-futures-literacy/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/book/ai-designing-tomorrow/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/research/workplace-happiness-innovation-2025/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/research/genai-process-intelligence-2025/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/research/cyber-physical-immersive-learning-2025/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/publications-and-thought-leadership/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/ai-literacy/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/futures-literacy/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/future-of-work/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/future-ready-education/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/professional-record/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/futures-practice/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/responsible-ai/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/research/",
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "responsive": [
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/futures-studies-and-foresight/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/research/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/media/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/insights/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/research/futures-literacy-labs-climate-change/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/research/intuition-scenario-planning-iii/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/research/imagining-with-imaginables/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/insights/pakistan-2035-futures-literacy/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/book/ai-designing-tomorrow/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/responsible-ai/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/research/workplace-happiness-innovation-2025/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/research/genai-process-intelligence-2025/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/research/cyber-physical-immersive-learning-2025/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/publications-and-thought-leadership/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/ai-literacy/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/futures-literacy/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/future-of-work/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/future-ready-education/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/professional-record/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/futures-practice/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/futures-studies-and-foresight/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/research/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/media/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/insights/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/research/futures-literacy-labs-climate-change/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/research/intuition-scenario-planning-iii/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/research/imagining-with-imaginables/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/insights/pakistan-2035-futures-literacy/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/book/ai-designing-tomorrow/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/responsible-ai/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/research/workplace-happiness-innovation-2025/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/research/genai-process-intelligence-2025/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/research/cyber-physical-immersive-learning-2025/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/publications-and-thought-leadership/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/ai-literacy/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/futures-literacy/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/future-of-work/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/future-ready-education/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/professional-record/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/futures-practice/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/futures-studies-and-foresight/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/research/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/media/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/insights/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/research/futures-literacy-labs-climate-change/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/research/intuition-scenario-planning-iii/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/research/imagining-with-imaginables/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/insights/pakistan-2035-futures-literacy/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/book/ai-designing-tomorrow/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/responsible-ai/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/research/workplace-happiness-innovation-2025/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/research/genai-process-intelligence-2025/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/research/cyber-physical-immersive-learning-2025/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/publications-and-thought-leadership/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/ai-literacy/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/futures-literacy/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/future-of-work/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/future-ready-education/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/professional-record/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/futures-practice/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/futures-studies-and-foresight/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/research/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/media/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/insights/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/research/futures-literacy-labs-climate-change/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/research/intuition-scenario-planning-iii/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/research/imagining-with-imaginables/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/insights/pakistan-2035-futures-literacy/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/book/ai-designing-tomorrow/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/responsible-ai/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/research/workplace-happiness-innovation-2025/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/research/genai-process-intelligence-2025/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/research/cyber-physical-immersive-learning-2025/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/publications-and-thought-leadership/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/ai-literacy/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/futures-literacy/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/future-of-work/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/future-ready-education/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/professional-record/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/futures-practice/",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "performance": {
+    "cls": 0,
+    "lcp": 452,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/css/site.css",
+        "bytes": 18925
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/site.js",
+        "bytes": 5854
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/indus-lines.svg",
+        "bytes": 2168
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/portrait.webp",
+        "bytes": 46544
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/favicon.svg",
+        "bytes": 545
+      }
+    ]
+  },
+  "checks": [
+    "One active compass panel",
+    "Vertical arrow-key compass navigation",
+    "Compass End selects last topic",
+    "Compass Home selects first topic",
+    "Story keyboard navigation",
+    "Story illustration changes with chapter",
+    "Action chapter available",
+    "Reduced motion starts signals paused",
+    "Manual signal navigation",
+    "No horizontal page overflow: / at 320px",
+    "No horizontal page overflow: /about/ at 320px",
+    "No horizontal page overflow: /futures-studies-and-foresight/ at 320px",
+    "No horizontal page overflow: /research/ at 320px",
+    "No horizontal page overflow: /media/ at 320px",
+    "No horizontal page overflow: /insights/ at 320px",
+    "No horizontal page overflow: /research/futures-literacy-labs-climate-change/ at 320px",
+    "No horizontal page overflow: /research/intuition-scenario-planning-iii/ at 320px",
+    "No horizontal page overflow: /research/imagining-with-imaginables/ at 320px",
+    "No horizontal page overflow: /insights/pakistan-2035-futures-literacy/ at 320px",
+    "No horizontal page overflow: /book/ai-designing-tomorrow/ at 320px",
+    "No horizontal page overflow: /responsible-ai/ at 320px",
+    "No horizontal page overflow: /research/workplace-happiness-innovation-2025/ at 320px",
+    "No horizontal page overflow: /research/genai-process-intelligence-2025/ at 320px",
+    "No horizontal page overflow: /research/cyber-physical-immersive-learning-2025/ at 320px",
+    "No horizontal page overflow: /publications-and-thought-leadership/ at 320px",
+    "No horizontal page overflow: /ai-literacy/ at 320px",
+    "No horizontal page overflow: /futures-literacy/ at 320px",
+    "No horizontal page overflow: /future-of-work/ at 320px",
+    "No horizontal page overflow: /future-ready-education/ at 320px",
+    "No horizontal page overflow: /professional-record/ at 320px",
+    "No horizontal page overflow: /futures-practice/ at 320px",
+    "No horizontal page overflow: / at 390px",
+    "No horizontal page overflow: /about/ at 390px",
+    "No horizontal page overflow: /futures-studies-and-foresight/ at 390px",
+    "No horizontal page overflow: /research/ at 390px",
+    "No horizontal page overflow: /media/ at 390px",
+    "No horizontal page overflow: /insights/ at 390px",
+    "No horizontal page overflow: /research/futures-literacy-labs-climate-change/ at 390px",
+    "No horizontal page overflow: /research/intuition-scenario-planning-iii/ at 390px",
+    "No horizontal page overflow: /research/imagining-with-imaginables/ at 390px",
+    "No horizontal page overflow: /insights/pakistan-2035-futures-literacy/ at 390px",
+    "No horizontal page overflow: /book/ai-designing-tomorrow/ at 390px",
+    "No horizontal page overflow: /responsible-ai/ at 390px",
+    "No horizontal page overflow: /research/workplace-happiness-innovation-2025/ at 390px",
+    "No horizontal page overflow: /research/genai-process-intelligence-2025/ at 390px",
+    "No horizontal page overflow: /research/cyber-physical-immersive-learning-2025/ at 390px",
+    "No horizontal page overflow: /publications-and-thought-leadership/ at 390px",
+    "No horizontal page overflow: /ai-literacy/ at 390px",
+    "No horizontal page overflow: /futures-literacy/ at 390px",
+    "No horizontal page overflow: /future-of-work/ at 390px",
+    "No horizontal page overflow: /future-ready-education/ at 390px",
+    "No horizontal page overflow: /professional-record/ at 390px",
+    "No horizontal page overflow: /futures-practice/ at 390px",
+    "No horizontal page overflow: / at 768px",
+    "No horizontal page overflow: /about/ at 768px",
+    "No horizontal page overflow: /futures-studies-and-foresight/ at 768px",
+    "No horizontal page overflow: /research/ at 768px",
+    "No horizontal page overflow: /media/ at 768px",
+    "No horizontal page overflow: /insights/ at 768px",
+    "No horizontal page overflow: /research/futures-literacy-labs-climate-change/ at 768px",
+    "No horizontal page overflow: /research/intuition-scenario-planning-iii/ at 768px",
+    "No horizontal page overflow: /research/imagining-with-imaginables/ at 768px",
+    "No horizontal page overflow: /insights/pakistan-2035-futures-literacy/ at 768px",
+    "No horizontal page overflow: /book/ai-designing-tomorrow/ at 768px",
+    "No horizontal page overflow: /responsible-ai/ at 768px",
+    "No horizontal page overflow: /research/workplace-happiness-innovation-2025/ at 768px",
+    "No horizontal page overflow: /research/genai-process-intelligence-2025/ at 768px",
+    "No horizontal page overflow: /research/cyber-physical-immersive-learning-2025/ at 768px",
+    "No horizontal page overflow: /publications-and-thought-leadership/ at 768px",
+    "No horizontal page overflow: /ai-literacy/ at 768px",
+    "No horizontal page overflow: /futures-literacy/ at 768px",
+    "No horizontal page overflow: /future-of-work/ at 768px",
+    "No horizontal page overflow: /future-ready-education/ at 768px",
+    "No horizontal page overflow: /professional-record/ at 768px",
+    "No horizontal page overflow: /futures-practice/ at 768px",
+    "No horizontal page overflow: / at 1440px",
+    "No horizontal page overflow: /about/ at 1440px",
+    "No horizontal page overflow: /futures-studies-and-foresight/ at 1440px",
+    "No horizontal page overflow: /research/ at 1440px",
+    "No horizontal page overflow: /media/ at 1440px",
+    "No horizontal page overflow: /insights/ at 1440px",
+    "No horizontal page overflow: /research/futures-literacy-labs-climate-change/ at 1440px",
+    "No horizontal page overflow: /research/intuition-scenario-planning-iii/ at 1440px",
+    "No horizontal page overflow: /research/imagining-with-imaginables/ at 1440px",
+    "No horizontal page overflow: /insights/pakistan-2035-futures-literacy/ at 1440px",
+    "No horizontal page overflow: /book/ai-designing-tomorrow/ at 1440px",
+    "No horizontal page overflow: /responsible-ai/ at 1440px",
+    "No horizontal page overflow: /research/workplace-happiness-innovation-2025/ at 1440px",
+    "No horizontal page overflow: /research/genai-process-intelligence-2025/ at 1440px",
+    "No horizontal page overflow: /research/cyber-physical-immersive-learning-2025/ at 1440px",
+    "No horizontal page overflow: /publications-and-thought-leadership/ at 1440px",
+    "No horizontal page overflow: /ai-literacy/ at 1440px",
+    "No horizontal page overflow: /futures-literacy/ at 1440px",
+    "No horizontal page overflow: /future-of-work/ at 1440px",
+    "No horizontal page overflow: /future-ready-education/ at 1440px",
+    "No horizontal page overflow: /professional-record/ at 1440px",
+    "No horizontal page overflow: /futures-practice/ at 1440px",
+    "Mobile menu starts collapsed",
+    "Mobile menu expands",
+    "Escape closes mobile menu",
+    "Escape restores focus",
+    "Horizontal mobile compass keys",
+    "Worksheet downloads entered reflection locally",
+    "All compass content readable without JavaScript",
+    "All story chapters readable without JavaScript",
+    "Navigation available without JavaScript",
+    "No JavaScript runtime errors",
+    "firefox mobile navigation",
+    "firefox compass",
+    "firefox story journey",
+    "firefox mobile containment",
+    "webkit mobile navigation",
+    "webkit compass",
+    "webkit story journey",
+    "webkit mobile containment",
+    "Signal advances after 12 seconds",
+    "Signal pauses while focused",
+    "Manual signal change announces question"
+  ]
+}

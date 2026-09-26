@@ -1,0 +1,20 @@
+name: Validate redesign and SEO preservation
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check all pages and preserved authority signals
+        run: python3 scripts/validate_site.py
+      - name: Check JavaScript syntax
+        run: node --check js/site.js
+      - name: Check shared shell is synchronized
+        run: |
+          python3 scripts/sync_shell.py
+          git diff --exit-code -- '*.html'
