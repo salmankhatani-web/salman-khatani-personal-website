@@ -19,6 +19,12 @@ Dr. Salman Ahmed Khatani is a Pakistan-based Associate Professor, futurist, rese
 - Research: https://salman-khatani-personal-website.salmankhatani.workers.dev/research/
 - Publications and Thought Leadership: https://salman-khatani-personal-website.salmankhatani.workers.dev/publications-and-thought-leadership/
 
+## Current research initiative
+- PAFRI 2027 — Pakistan AI & Futures Readiness Index study protocol (v0.1): https://fikerfuturesacademy.lovable.app/pakistan-ai-futures-readiness-index-2027
+- Status: instrument development; no national benchmark results have been collected yet.
+- Primary population: Pakistani higher education.
+- The protocol separates People Readiness Index from Institutional Readiness Index.
+
 ## Selected external writing
 - Medium — Beyond AI Literacy: https://medium.com/@salmankhatani/beyond-ai-literacy-why-strategic-foresight-is-the-missing-capability-for-the-ai-age-45143fd2c9f3
 - Substack — Pakistan 2035: https://salmankhatani.substack.com/p/pakistan-2035-why-we-need-futures
