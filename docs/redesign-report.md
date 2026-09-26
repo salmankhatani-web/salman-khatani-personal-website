@@ -89,7 +89,7 @@ Removed overlapping inline CSS, old font imports, decorative gradients, duplicat
 
 The homepage and research record prominently say “Research Initiative — Work in Progress” and “Study Protocol in Development,” with instrument version 0.1. They distinguish People Readiness and Institutional Readiness and explicitly state that no national results have been collected. No ranking, heat map, score, participant count or completed national benchmark is displayed.
 
-Both pre-existing external protocol URLs return 404. Their references are retained with a dated availability note and a working local source copy. An exact copy of the original academy protocol dated 26 September 2026 is now downloadable from this site; no research was recreated or fabricated.
+Both pre-existing external protocol URLs were verified live with full content on 26 September 2026. Their original references and canonical identities are retained alongside a working local source copy. An exact copy of the original academy protocol dated 26 September 2026 is now downloadable from this site; no research was recreated or fabricated.
 
 ## 16. PAUSE-AI status
 
@@ -106,10 +106,10 @@ Supplied with delivery: desktop and mobile full-page screenshots, first-screen s
 - Cloudflare preview logs identified a missing `previews` configuration block. Added wrangler.jsonc with that block, the existing Worker name and compatibility date, plus an explicit public asset directory.
 - A dependency-free build packages the website into dist/ for both Cloudflare and GitHub Pages, excluding repository tooling and audit records.
 - PAFRI and PAUSE-AI source files are copied exactly from the academy repository. The homepage protocol action and citation download now have working local targets. Canonical source identities remain unchanged.
-- The academy PAFRI URLs and original Daily The Spokesman PDF were unavailable at the external sources. Original references remain with dated notes; the personal website cannot repair third-party hosting.
+- The academy PAFRI page, PAFRI text protocol, PAUSE-AI page and Version 1.0 citation are now verified live. The original Daily The Spokesman PDF still returns 404; its reference remains with a dated note.
 - Other external sources may block automated requests. No Search Console, real-device screen-reader audit or field Core Web Vitals measurement is claimed.
 - Deployment results are recorded separately in docs/deployment-report.md after release verification.
 
 ## 19. Recommended next phase
 
-Publish the academy’s pending protocol pages, restore the publisher’s missing PDF if available, and monitor indexing and field performance after release. Future reports, talks and frameworks should enter their existing content directories and receive a selected homepage spotlight only when useful.
+Restore the publisher’s missing PDF if available, and monitor indexing and field performance after release. Future reports, talks and frameworks should enter their existing content directories and receive a selected homepage spotlight only when useful.
