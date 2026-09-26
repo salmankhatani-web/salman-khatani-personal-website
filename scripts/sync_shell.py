@@ -4,6 +4,7 @@ import re
 ROOT=Path(__file__).resolve().parent.parent
 for path in ROOT.rglob('index.html'):
     relative=path.relative_to(ROOT)
+    if {'dist','node_modules','.wrangler','.git'} & set(relative.parts): continue
     prefix='../'*(len(relative.parts)-1)
     text=path.read_text()
     for name in ['header','footer']:

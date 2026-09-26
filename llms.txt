@@ -46,4 +46,7 @@ Editorial submissions under review are not listed as published work until they a
 
 ## Named framework
 - PAUSE-AI — PAUSE-AI: A Responsible AI Readiness Checklist for Pakistani Universities: https://fikerfuturesacademy.lovable.app/pause-ai-responsible-ai-readiness-checklist
-- Creator: Dr. Salman Khatani. Published: 2026-09-14. The source does not specify a version number. It is an original decision framework, not a formal standard or accreditation instrument.
+- Creator: Dr. Salman Khatani. Published: 2026-09-14. Framework Version 1.0; source record updated 2026-09-26. It is an original decision framework, not a formal standard or accreditation instrument.
+
+- PAUSE-AI Version 1.0 citation source copy: https://salman-khatani-personal-website.salmankhatani.workers.dev/assets/research/pause-ai-citation.txt
+- PAFRI protocol Version 0.1 source copy (instrument development, no national results): https://salman-khatani-personal-website.salmankhatani.workers.dev/assets/research/pafri-2027-protocol-v0.1.txt

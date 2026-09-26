@@ -71,7 +71,7 @@ The full publication directory, CV-recorded bibliography, citations, evidence re
 
 Existing JSON-LD is preserved as a property-level subset. The PAFRI CreativeWork receives `creativeWorkStatus: Study Protocol in Development` and a description explicitly stating instrument development and no national results. Its original external entity ID, URL, version and creator remain.
 
-A sourced PAUSE-AI CreativeWork reference is added on Responsible AI, using the academy's existing `#article` identity, original canonical URL, published date and canonical personal-site creator reference, with a source citation. No competing local canonical framework page is created. A version number was not asserted because the retrieved source does not specify one.
+A sourced PAUSE-AI CreativeWork reference is added on Responsible AI, using the academy's verified `#framework` identity, original canonical URL, published date and canonical personal-site creator reference, with a source citation. No competing local canonical framework page is created. Version 1.0, the updated date and citation are verified against the academy repository’s published-source records; the canonical academy URL remains authoritative.
 
 ## 12. URLs preserved
 
@@ -89,28 +89,27 @@ Removed overlapping inline CSS, old font imports, decorative gradients, duplicat
 
 The homepage and research record prominently say “Research Initiative — Work in Progress” and “Study Protocol in Development,” with instrument version 0.1. They distinguish People Readiness and Institutional Readiness and explicitly state that no national results have been collected. No ranking, heat map, score, participant count or completed national benchmark is displayed.
 
-Both pre-existing external protocol URLs return 404. Their references are retained with a dated availability note and a link to the local research status. The full protocol has not been recreated or fabricated.
+Both pre-existing external protocol URLs return 404. Their references are retained with a dated availability note and a working local source copy. An exact copy of the original academy protocol dated 26 September 2026 is now downloadable from this site; no research was recreated or fabricated.
 
 ## 16. PAUSE-AI status
 
 No PAUSE-AI record existed in the repository at audit time. The academy homepage linked to the official framework at `https://fikerfuturesacademy.lovable.app/pause-ai-responsible-ai-readiness-checklist`, retrieved successfully. It identifies Dr. Salman Khatani as author and gives 14 September 2026 as the publication date. The redesign adds the named framework, source citation and canonical relationship on Responsible AI and links to it from Research and llms.txt.
 
-The requested Version 1.0 citation record was not found in the repository or on the retrieved canonical page. Its verification remains outstanding; the user was asked for the authoritative record. The source's authorship and canonical page remain intact.
+The Version 1.0 citation was subsequently verified in the academy repository’s public/pause-ai-citation.txt and framework page source. An exact downloadable copy, the version, and the canonical #framework relationship are now included. The source’s authorship and canonical page remain intact.
 
 ## 17. Preview references
 
 Supplied with delivery: desktop and mobile full-page screenshots, first-screen screenshots, Firefox/WebKit captures, research and evidence screenshots, source ZIP and this report. The review branch is intended for inspection before release: https://github.com/salmankhatani-web/salman-khatani-personal-website/pull/6.
 
-## 18. Known limitations and release gates
+## 18. Release resolution and remaining limits
 
-- PAFRI's study page and plain-text protocol return 404; replacement locations need confirmation.
-- The original Daily The Spokesman PDF returns 404 and is labelled accordingly.
-- Automated HEAD checks found 39 HTTP 200 responses and one 202 across 56 pre-existing external links. Other sources returned anti-bot/access responses (403/999) or a transient 503; these are not automatically classified as dead. The PAUSE-AI canonical page was separately fetched successfully.
-- PAUSE-AI Version 1.0 provenance is unconfirmed.
-- Production runs on a Cloudflare Workers domain, while the repository contains a GitHub Pages deployment workflow. No Workers configuration was available to validate or deploy.
-- The new GitHub validation workflow passed on the review commit. The pre-existing Cloudflare Workers build check failed on both the original main commit and the redesign commit; its exposed GitHub output does not identify the cause. Production was not successfully deployed by this task.
-- No merge, Search Console inspection, real-device assistive-technology audit or field Core Web Vitals measurement was performed.
+- Cloudflare preview logs identified a missing `previews` configuration block. Added wrangler.jsonc with that block, the existing Worker name and compatibility date, plus an explicit public asset directory.
+- A dependency-free build packages the website into dist/ for both Cloudflare and GitHub Pages, excluding repository tooling and audit records.
+- PAFRI and PAUSE-AI source files are copied exactly from the academy repository. The homepage protocol action and citation download now have working local targets. Canonical source identities remain unchanged.
+- The academy PAFRI URLs and original Daily The Spokesman PDF were unavailable at the external sources. Original references remain with dated notes; the personal website cannot repair third-party hosting.
+- Other external sources may block automated requests. No Search Console, real-device screen-reader audit or field Core Web Vitals measurement is claimed.
+- Deployment results are recorded separately in docs/deployment-report.md after release verification.
 
 ## 19. Recommended next phase
 
-Confirm the PAFRI protocol locations and PAUSE-AI versioned citation, review the new visual direction, then validate the actual production hosting integration. Run a screen-reader/real-device review and production performance check, merge only after the source/deployment release gates are resolved, and monitor indexing and field performance after release. Future reports, talks and frameworks should enter their existing content directories and receive a selected homepage spotlight only when useful.
+Publish the academy’s pending protocol pages, restore the publisher’s missing PDF if available, and monitor indexing and field performance after release. Future reports, talks and frameworks should enter their existing content directories and receive a selected homepage spotlight only when useful.

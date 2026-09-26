@@ -23,10 +23,12 @@ jobs:
         run: python3 scripts/validate_site.py
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Package public website
+        run: node scripts/build-site.mjs
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4

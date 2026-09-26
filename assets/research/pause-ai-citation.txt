@@ -1,0 +1,16 @@
+PAUSE-AI — Recommended citation
+
+Khatani, Salman Ahmed. (2026). PAUSE-AI: A Responsible AI Readiness Checklist for Pakistani Universities (Version 1.0). Fiker Futures Academy. https://fikerfuturesacademy.lovable.app/pause-ai-responsible-ai-readiness-checklist
+
+Framework version: 1.0
+Article first published: 14 September 2026
+Framework record updated: 26 September 2026
+Creator: Dr. Salman Ahmed Khatani
+Publisher: Fiker Futures Academy
+Canonical URL: https://fikerfuturesacademy.lovable.app/pause-ai-responsible-ai-readiness-checklist
+
+Scope:
+PAUSE-AI is a practical decision framework for evaluating Purpose, Accountability, Users and equity, Safety and knowledge integrity, Evidence and evolution, and Alternative futures before scaling an AI initiative.
+
+Citation note:
+Please cite the canonical URL above. A DOI has not been assigned.

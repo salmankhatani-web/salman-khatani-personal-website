@@ -60,7 +60,7 @@ def metadata(items):
     return {x.get('name',x.get('property','charset')):x.get('content',x.get('charset')) for x in items if x.get('name')!='theme-color'}
 
 def check():
-    errors=[]; pages={p.relative_to(ROOT).as_posix():Page(p.read_text()) for p in ROOT.rglob('index.html') if '.git' not in p.parts}
+    errors=[]; pages={p.relative_to(ROOT).as_posix():Page(p.read_text()) for p in ROOT.rglob('index.html') if not {'.git','dist','node_modules','.wrangler'} & set(p.relative_to(ROOT).parts)}
     baseline=json.loads((ROOT/'docs/seo-baseline.json').read_text())
     all_links=set(); total=0
     for name,p in pages.items():

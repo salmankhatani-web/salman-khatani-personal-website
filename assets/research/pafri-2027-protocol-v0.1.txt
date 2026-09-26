@@ -1,0 +1,81 @@
+PAKISTAN AI & FUTURES READINESS INDEX (PAFRI) 2027
+Study Protocol v0.1 — 26 September 2026
+
+STATUS
+Instrument development. No national benchmark results have been collected or published yet.
+National fieldwork will begin only after expert review, cognitive testing, pilot validation and ethics approval.
+
+PURPOSE
+PAFRI is designed to measure readiness for an AI-shaped future without reducing readiness to AI tool use.
+
+PRIMARY POPULATION
+Pakistani higher education.
+
+TWO PRIMARY INDICES
+1. People Readiness Index (PRI)
+   - AI Literacy & Critical Evaluation
+   - Responsible AI Judgement & Human Agency
+   - Learning Agility & Human Capabilities
+   - Futures Literacy & Foresight
+
+2. Institutional Readiness Index (IRI)
+   - Governance & Accountability
+   - Curriculum & Capability Development
+   - Inclusion, Access & Infrastructure
+   - Anticipatory Strategy & Experimentation
+
+APPLIED JUDGEMENT
+Four short scenarios are scored separately during the pilot. They will not be merged into PRI until validation supports doing so.
+
+VALIDATION PLAN
+- Expert review: 10–15 experts
+- Cognitive interviews: 15–20 participants
+- Pilot: 250–400 respondents across 6–8 HEIs
+- National target: at least 2,000 respondents across 40+ HEC-recognized institutions/campuses, subject to access and final sampling calculations
+- Ethics approval and preregistration before national fieldwork
+
+SCORING
+Each four-item domain uses a five-point agreement scale. Valid domain means are transformed to 0–100:
+Domain score = ((mean - 1) / 4) * 100
+
+PRI = equal-weighted mean of four People domains.
+IRI = equal-weighted mean of four Institutional domains.
+A single combined national PAFRI score will not be used in Version 1 unless validation supports it.
+
+REPORTING PRINCIPLES
+- No public university league table in Version 1
+- Institution-specific results confidential unless the institution opts in
+- Report sample composition and uncertainty next to comparisons
+- Do not call self-reported tool use "competence"
+- Report Don't-know rates separately for institutional items
+- Publish item wording, scoring rules, limitations and revision history
+
+CONCEPTUAL REFERENCES
+UNESCO AI Competency Framework for Students:
+https://www.unesco.org/en/articles/ai-competency-framework-students
+
+UNESCO AI Competency Framework for Teachers:
+https://unesdoc.unesco.org/ark:/48223/pf0000391104
+
+OECD / European Commission (2026), Empowering Learners for the Age of AI:
+https://doi.org/10.1787/65cd27d4-en
+
+NIST AI RMF 1.0:
+https://doi.org/10.6028/NIST.AI.100-1
+
+NIST Generative AI Profile:
+https://doi.org/10.6028/NIST.AI.600-1
+
+UNESCO Futures Literacy resources:
+https://www.unesco.org/en/futures-literacy/resources
+
+World Economic Forum, Future of Jobs Report 2025:
+https://www.weforum.org/publications/the-future-of-jobs-report-2025/
+
+LEAD
+Dr. Salman Ahmed Khatani
+Fiker Futures Academy
+https://fikerfuturesacademy.lovable.app/dr-salman-khatani
+
+CANONICAL PROTOCOL PAGE
+https://fikerfuturesacademy.lovable.app/pakistan-ai-futures-readiness-index-2027
