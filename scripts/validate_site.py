@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = 'https://salmankhatani-web.github.io/salman-khatani-personal-website/'
+BASE_PATH = urlparse(BASE).path.strip('/')
 VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
 
 class Page(HTMLParser):
@@ -80,6 +81,10 @@ def check():
             if link in p.links: all_links.add(url)
             if q.netloc!=urlparse(BASE).netloc: continue
             target=unquote(q.path).lstrip('/')
+            if BASE_PATH and target == BASE_PATH:
+                target=''
+            elif BASE_PATH and target.startswith(BASE_PATH + '/'):
+                target=target[len(BASE_PATH)+1:]
             if not Path(target).suffix: target+='index.html'
             if not (ROOT/target).is_file(): errors.append(f'{name}: missing target {link}');continue
             if q.fragment and target in pages and unquote(q.fragment) not in pages[target].ids: errors.append(f'{name}: missing fragment {link}')
@@ -101,7 +106,12 @@ def check():
     newlocs={e.text for e in ET.parse(ROOT/'sitemap.xml').iter() if e.tag.endswith('loc')}
     if not oldlocs<=newlocs: errors.append('Lost sitemap URLs')
     for url in newlocs:
-        target=urlparse(url).path.lstrip('/')+'index.html'
+        target=urlparse(url).path.lstrip('/')
+        if BASE_PATH and target == BASE_PATH:
+            target=''
+        elif BASE_PATH and target.startswith(BASE_PATH + '/'):
+            target=target[len(BASE_PATH)+1:]
+        target += 'index.html'
         if target not in pages: errors.append('Sitemap URL missing: '+url)
     for name in ['index.html','research/index.html']:
         text=(ROOT/name).read_text()
