@@ -96,9 +96,9 @@
                 "Sustainable Development"
               ],
               "sameAs": [
-                "https://pk.linkedin.com/in/salman-khatani-12ab8346",
+                "https://www.linkedin.com/in/salman-khatani-12ab8346/",
                 "https://www.researchgate.net/profile/Salman-Khatani",
-                "https://dev.iqra.edu.pk/teachers/dr-salman-khatani/",
+                "https://iqra.edu.pk/teachers/dr-salman-khatani/",
                 "https://nextgenforesight.org/our-network/steering-committee/",
                 "https://lifeboat.com/ex/bios.salman.khatani",
                 "https://fikerfuturesacademy.lovable.app/",
@@ -147,7 +147,7 @@
               "subjectOf": [
                 {
                   "@type": "ProfilePage",
-                  "url": "https://dev.iqra.edu.pk/teachers/dr-salman-khatani/",
+                  "url": "https://iqra.edu.pk/teachers/dr-salman-khatani/",
                   "name": "Iqra University faculty profile"
                 },
                 {
@@ -195,7 +195,7 @@
         "https://fikerfuturesacademy.lovable.app/",
         "https://salman-khatani-personal-website.salmankhatani.workers.dev/",
         "https://www.researchgate.net/profile/Salman-Khatani",
-        "https://pk.linkedin.com/in/salman-khatani-12ab8346",
+        "https://www.linkedin.com/in/salman-khatani-12ab8346/",
         "https://nextgenforesight.org/our-network/steering-committee/",
         "https://lifeboat.com/ex/bios.salman.khatani",
         "https://medium.com/@salmankhatani",
@@ -1034,7 +1034,7 @@
         "publications-and-thought-leadership/",
         "professional-record/",
         "professional-record/",
-        "https://pk.linkedin.com/in/salman-khatani-12ab8346",
+        "https://www.linkedin.com/in/salman-khatani-12ab8346/",
         "https://fikerfuturesacademy.lovable.app/",
         "#home",
         "#about",
@@ -1472,7 +1472,7 @@
                 "@id": "https://salman-khatani-personal-website.salmankhatani.workers.dev/#person"
               },
               "citation": [
-                "https://dev.iqra.edu.pk/teachers/dr-salman-khatani/",
+                "https://iqra.edu.pk/teachers/dr-salman-khatani/",
                 "https://nextgenforesight.org/our-network/steering-committee/",
                 "https://lifeboat.com/ex/bios.salman.khatani",
                 "https://www.researchgate.net/profile/Salman-Khatani",
@@ -1501,10 +1501,10 @@
               "worksFor": {
                 "@type": "CollegeOrUniversity",
                 "name": "Iqra University",
-                "sameAs": "https://dev.iqra.edu.pk/teachers/dr-salman-khatani/"
+                "sameAs": "https://iqra.edu.pk/teachers/dr-salman-khatani/"
               },
               "sameAs": [
-                "https://pk.linkedin.com/in/salman-khatani-12ab8346",
+                "https://www.linkedin.com/in/salman-khatani-12ab8346/",
                 "https://www.researchgate.net/profile/Salman-Khatani",
                 "https://nextgenforesight.org/our-network/steering-committee/",
                 "https://lifeboat.com/ex/bios.salman.khatani",
@@ -1517,7 +1517,7 @@
               "subjectOf": [
                 {
                   "@type": "ProfilePage",
-                  "url": "https://dev.iqra.edu.pk/teachers/dr-salman-khatani/",
+                  "url": "https://iqra.edu.pk/teachers/dr-salman-khatani/",
                   "name": "Iqra University faculty profile"
                 },
                 {
@@ -1576,7 +1576,7 @@
         "https://salman-khatani-personal-website.salmankhatani.workers.dev/insights/",
         "https://salman-khatani-personal-website.salmankhatani.workers.dev/publications-and-thought-leadership/",
         "https://salman-khatani-personal-website.salmankhatani.workers.dev/professional-record/",
-        "https://dev.iqra.edu.pk/teachers/dr-salman-khatani/",
+        "https://iqra.edu.pk/teachers/dr-salman-khatani/",
         "https://www.researchgate.net/profile/Salman-Khatani",
         "https://nextgenforesight.org/our-network/steering-committee/",
         "https://lifeboat.com/ex/bios.salman.khatani",
