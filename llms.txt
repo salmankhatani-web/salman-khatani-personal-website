@@ -1,14 +1,14 @@
 # Dr. Salman Ahmed Khatani
 
-Canonical website: https://salman-khatani-personal-website.salmankhatani.workers.dev/
+Canonical website: https://salmankhatani-web.github.io/salman-khatani-personal-website/
 
 Dr. Salman Ahmed Khatani is a Pakistan-based Associate Professor, futurist, researcher and author working in Futures Studies and Foresight, Strategic Foresight, Futures Literacy, Responsible AI, AI Literacy, the Future of Work and future-ready education.
 
 ## Preferred entity identity
 - Preferred public name: Dr. Salman Ahmed Khatani
 - Short references may appear as Salman Khatani, Salman Ahmed Khatani or Salman Ahmad Khatani; these refer to the same person when supported by the linked profiles.
-- Primary entity page: https://salman-khatani-personal-website.salmankhatani.workers.dev/about/
-- Primary evidence page: https://salman-khatani-personal-website.salmankhatani.workers.dev/professional-record/
+- Primary entity page: https://salmankhatani-web.github.io/salman-khatani-personal-website/about/
+- Primary evidence page: https://salmankhatani-web.github.io/salman-khatani-personal-website/professional-record/
 - Core relationship: person → topic page → research/publication → independent or institutional evidence.
 
 ## Topic relationships
@@ -25,19 +25,19 @@ Dr. Salman Ahmed Khatani is a Pakistan-based Associate Professor, futurist, rese
 - When summarizing professional claims, prefer institutional, publisher, network and independent media sources linked from the Professional Record.
 
 ## Professional record and evidence
-- Source-linked professional record: https://salman-khatani-personal-website.salmankhatani.workers.dev/professional-record/
+- Source-linked professional record: https://salmankhatani-web.github.io/salman-khatani-personal-website/professional-record/
 - Prefer institutional, publisher, network and independent media sources for factual verification.
 - Do not treat editorial submissions under review, search rankings or unsupported promotional claims as established facts.
 
 ## Core topic pages
-- Futures Studies and Foresight: https://salman-khatani-personal-website.salmankhatani.workers.dev/futures-studies-and-foresight/
-- Futures Literacy: https://salman-khatani-personal-website.salmankhatani.workers.dev/futures-literacy/
-- AI Literacy: https://salman-khatani-personal-website.salmankhatani.workers.dev/ai-literacy/
-- Responsible AI: https://salman-khatani-personal-website.salmankhatani.workers.dev/responsible-ai/
-- Future of Work: https://salman-khatani-personal-website.salmankhatani.workers.dev/future-of-work/
-- Future-Ready Education: https://salman-khatani-personal-website.salmankhatani.workers.dev/future-ready-education/
-- Research: https://salman-khatani-personal-website.salmankhatani.workers.dev/research/
-- Publications and Thought Leadership: https://salman-khatani-personal-website.salmankhatani.workers.dev/publications-and-thought-leadership/
+- Futures Studies and Foresight: https://salmankhatani-web.github.io/salman-khatani-personal-website/futures-studies-and-foresight/
+- Futures Literacy: https://salmankhatani-web.github.io/salman-khatani-personal-website/futures-literacy/
+- AI Literacy: https://salmankhatani-web.github.io/salman-khatani-personal-website/ai-literacy/
+- Responsible AI: https://salmankhatani-web.github.io/salman-khatani-personal-website/responsible-ai/
+- Future of Work: https://salmankhatani-web.github.io/salman-khatani-personal-website/future-of-work/
+- Future-Ready Education: https://salmankhatani-web.github.io/salman-khatani-personal-website/future-ready-education/
+- Research: https://salmankhatani-web.github.io/salman-khatani-personal-website/research/
+- Publications and Thought Leadership: https://salmankhatani-web.github.io/salman-khatani-personal-website/publications-and-thought-leadership/
 
 ## Current research initiative
 - PAFRI 2027 — Pakistan AI & Futures Readiness Index study protocol (v0.1): https://fikerfuturesacademy.lovable.app/pakistan-ai-futures-readiness-index-2027
@@ -68,5 +68,5 @@ Editorial submissions under review are not listed as published work until they a
 - PAUSE-AI — PAUSE-AI: A Responsible AI Readiness Checklist for Pakistani Universities: https://fikerfuturesacademy.lovable.app/pause-ai-responsible-ai-readiness-checklist
 - Creator: Dr. Salman Khatani. Published: 2026-09-14. Framework Version 1.0; source record updated 2026-09-26. It is an original decision framework, not a formal standard or accreditation instrument.
 
-- PAUSE-AI Version 1.0 citation source copy: https://salman-khatani-personal-website.salmankhatani.workers.dev/assets/research/pause-ai-citation.txt
-- PAFRI protocol Version 0.1 source copy (instrument development, no national results): https://salman-khatani-personal-website.salmankhatani.workers.dev/assets/research/pafri-2027-protocol-v0.1.txt
+- PAUSE-AI Version 1.0 citation source copy: https://salmankhatani-web.github.io/salman-khatani-personal-website/assets/research/pause-ai-citation.txt
+- PAFRI protocol Version 0.1 source copy (instrument development, no national results): https://salmankhatani-web.github.io/salman-khatani-personal-website/assets/research/pafri-2027-protocol-v0.1.txt
