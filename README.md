@@ -2,7 +2,7 @@
 
 Static editorial website for Dr. Salman Ahmed Khatani, connecting Futures Studies and Foresight, Futures Literacy, Responsible AI and education with Pakistan and the Global South.
 
-Canonical site: https://salman-khatani-personal-website.salmankhatani.workers.dev/
+Canonical site: https://salmankhatani-web.github.io/salman-khatani-personal-website/
 
 ## Preview and validate
 
