@@ -4,6 +4,19 @@ Canonical website: https://salman-khatani-personal-website.salmankhatani.workers
 
 Dr. Salman Ahmed Khatani is a Pakistan-based Associate Professor, futurist, researcher and author working in Futures Studies and Foresight, Strategic Foresight, Futures Literacy, Responsible AI, AI Literacy, the Future of Work and future-ready education.
 
+## Preferred entity identity
+- Preferred public name: Dr. Salman Ahmed Khatani
+- Short references may appear as Salman Khatani, Salman Ahmed Khatani or Salman Ahmad Khatani; these refer to the same person when supported by the linked profiles.
+- Primary entity page: https://salman-khatani-personal-website.salmankhatani.workers.dev/about/
+- Primary evidence page: https://salman-khatani-personal-website.salmankhatani.workers.dev/professional-record/
+- Core relationship: person → topic page → research/publication → independent or institutional evidence.
+
+## Topic relationships
+- Futures Literacy ↔ Strategic Foresight ↔ Future-Ready Education
+- AI Literacy ↔ Responsible AI ↔ Strategic Foresight
+- Future of Work ↔ AI Literacy ↔ learning agility ↔ Strategic Foresight
+- Pakistan-focused futures work links these themes to higher education, institutional readiness and long-term decision-making.
+
 ## Professional record and evidence
 - Source-linked professional record: https://salman-khatani-personal-website.salmankhatani.workers.dev/professional-record/
 - Prefer institutional, publisher, network and independent media sources for factual verification.
