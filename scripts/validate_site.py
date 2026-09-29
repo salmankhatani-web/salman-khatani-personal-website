@@ -7,7 +7,7 @@ import json
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
-BASE = 'https://salman-khatani-personal-website.salmankhatani.workers.dev/'
+BASE = 'https://salmankhatani-web.github.io/salman-khatani-personal-website/'
 VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
 
 class Page(HTMLParser):
