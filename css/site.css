@@ -311,3 +311,35 @@ li{margin-bottom:.7rem}
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
+
+
+/* 2026 audience-feedback refinement: stronger identity, academy pathway and impact snapshot. */
+.brand-mark{border:0;width:52px;height:52px;padding:0;display:block;color:inherit}
+.brand-mark-svg{width:52px;height:52px;overflow:visible}
+.brand-orbit{fill:none;stroke:#d4a282;stroke-width:1.6;stroke-linecap:round}
+.brand-star{fill:#d4a282}
+.brand-letter{font-family:Georgia,'Times New Roman',serif;dominant-baseline:auto}
+.brand-s{font-size:38px;font-style:italic;fill:#f3eee3}
+.brand-k{font-size:34px;fill:#d4a282}
+.brand-name{white-space:nowrap}
+.site-nav .header-cta{border:1px solid #d4a282;border-radius:999px;padding:.45rem .85rem;min-height:42px;color:#f3eee3}
+.site-nav .header-cta:hover{background:#f3eee3;color:#081722;text-decoration:none}
+.site-nav a:last-child{border-bottom:0}
+.impact-snapshot{background:#10242e;color:var(--warm-sand);padding:3.4rem 0;border-top:1px solid #ffffff1c;border-bottom:1px solid #ffffff1c}
+.impact-head{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:end;margin-bottom:2rem}
+.impact-head h2{font-size:clamp(2rem,3.6vw,3.4rem);margin:0;max-width:16ch}
+.impact-head>p{color:#c5cfcd;font-size:.94rem;margin:0;max-width:58ch}
+.impact-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:#ffffff1f;border:1px solid #ffffff1f}
+.impact-card{display:flex;min-height:190px;flex-direction:column;padding:1.5rem;background:#10242e;color:inherit;text-decoration:none}
+.impact-card:hover{background:#16313b;text-decoration:none}
+.impact-card strong{font:400 clamp(2rem,4vw,3.35rem)/1 var(--serif);color:#f3eee3;margin-bottom:1rem;letter-spacing:-.04em}
+.impact-card span{font-size:.92rem;line-height:1.45;max-width:20ch}
+.impact-card small{margin-top:auto;padding-top:1.2rem;color:#aebfba;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase}
+.digital-footprint{display:flex;align-items:center;gap:.8rem 1.25rem;flex-wrap:wrap;padding-top:1.5rem}
+.digital-footprint .eyebrow{margin:0;color:#d4a282}
+.digital-footprint a{color:#dae0d7;font-size:.82rem;text-decoration:none}
+.digital-footprint a:hover{text-decoration:underline}
+.impact-updated{margin-left:auto;color:#8fa29e;font-size:.72rem}
+@media(max-width:1120px){.site-nav{gap:.8rem}.site-nav a{font-size:.78rem}.site-nav .header-cta{padding:.4rem .65rem}}
+@media(max-width:800px){.site-nav .header-cta{width:100%;justify-content:center;margin-top:.4rem}.impact-head{grid-template-columns:1fr;gap:1rem}.impact-grid{grid-template-columns:repeat(2,1fr)}.impact-updated{width:100%;margin-left:0}}
+@media(max-width:600px){.brand-mark,.brand-mark-svg{width:44px;height:44px}.impact-snapshot{padding:2.5rem 0}.impact-grid{grid-template-columns:1fr 1fr}.impact-card{min-height:165px;padding:1.15rem}.impact-card span{font-size:.82rem}}
