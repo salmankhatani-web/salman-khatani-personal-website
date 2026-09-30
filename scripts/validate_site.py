@@ -112,6 +112,8 @@ def check():
     if 'salmankhatani.workers.dev/#person' not in homepage: errors.append('index.html: canonical Person @id missing')
     if 'Dr. Salman Ahmed Khatani' not in homepage: errors.append('index.html: canonical Person name missing')
     if 'Salman Khadani' in homepage: errors.append('index.html: typo alias Salman Khadani must not appear in canonical entity data')
+    person_block = homepage[homepage.find('"@type":"Person"'):homepage.find('</script>', homepage.find('"@type":"Person"'))]
+    if '"sameAs"' in person_block and 'https://fikerfuturesacademy.lovable.app/' in person_block.split('"sameAs"',1)[1].split(']',1)[0]: errors.append('index.html: organization URL must not be a Person sameAs identity target')
     oldlocs={e.text for e in ET.fromstring(baseline['infrastructure']['sitemap.xml']).iter() if e.tag.endswith('loc')}
     newlocs={e.text for e in ET.parse(ROOT/'sitemap.xml').iter() if e.tag.endswith('loc')}
     # Canonical host migration intentionally replaces historical sitemap hosts; page coverage is checked below.
