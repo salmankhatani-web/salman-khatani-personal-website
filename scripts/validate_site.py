@@ -116,6 +116,7 @@ def check():
     if '"subjectOf"' not in homepage or '10.65969/76-78-MAJ_1373' not in homepage: errors.append('index.html: homepage Person schema must retain verified subjectOf evidence')
     research_index=(ROOT/'research'/'index.html').read_text()
     if '34-6-22_86-87' not in research_index or '76-78-MAJ_1373' not in research_index: errors.append('research/index.html: research collection must expose both ICMA practitioner publication nodes')
+    if '10.65753/sujbm.v2i2.31' not in research_index: errors.append('research/index.html: retain SUJBM publisher-backed entrepreneurship DOI in scholarly graph')
     responsible_ai=(ROOT/'responsible-ai'/'index.html').read_text()
     if '76-78-MAJ_1373' not in responsible_ai or 'AI Governance' not in responsible_ai: errors.append('responsible-ai/index.html: Responsible AI topic graph must retain ICMA governance evidence')
     person_block = homepage[homepage.find('"@type":"Person"'):homepage.find('</script>', homepage.find('"@type":"Person"'))]
