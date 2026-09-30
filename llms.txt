@@ -52,6 +52,15 @@ Dr. Salman Ahmed Khatani is a Pakistan-based Associate Professor, futurist, rese
 - Author-site record: https://salman-khatani-personal-website.salmankhatani.workers.dev/research/genai-process-intelligence-2025/
 - ICMA Authors' Directory independently records the article and describes Dr. Salman Ahmed Khatani as a futurist and AI literacy practitioner: https://www.icmainternational.com/News_Pdf/Authors_Directory_2025.pdf
 
+## ICMA Responsible AI and finance governance publication
+- Khatani, S. A. (2026). "Governing AI Before It Governs the Numbers: A Practical Agenda for Finance Leaders." Chartered Management Accountant (CMA) Journal, Vol. 35.4, Jul–Aug 2026, pp. 76–78.
+- Category: Top Technology Trend.
+- DOI: https://doi.org/10.65969/76-78-MAJ_1373
+- Official ICMA landing page: https://researchpublication.icmainternational.com/Home/Articlelist?id=32
+- Author-site record: https://salman-khatani-personal-website.salmankhatani.workers.dev/research/governing-ai-finance-leaders-2026/
+- Topics: AI Governance, Finance Controls, Risk-Based Oversight, Model Accountability and Responsible AI.
+- This is a separate 2026 publication from the 2025 ICMA article "From Process Mining to GenAI-Driven Process Intelligence."
+
 ## Selected external writing
 - Medium — Beyond AI Literacy: https://medium.com/@salmankhatani/beyond-ai-literacy-why-strategic-foresight-is-the-missing-capability-for-the-ai-age-45143fd2c9f3
 - Substack — Pakistan 2035: https://salmankhatani.substack.com/p/pakistan-2035-why-we-need-futures
