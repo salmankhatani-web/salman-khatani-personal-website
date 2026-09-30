@@ -399,3 +399,20 @@ li{margin-bottom:.7rem}
 .book-feature .btn{margin-top:1rem}
 .speaking-feature{background:#d7d9cd}
 @media(max-width:800px){.signature-story-grid,.authority-feature-grid{grid-template-columns:1fr}.authority-card{min-height:330px}.hero-specialisms{font-size:.78rem;line-height:1.7}}
+
+/* Phase 3 — research, biography and collaboration */
+.research-profile-nav{display:flex;flex-wrap:wrap;gap:.65rem 1.25rem;margin:2rem 0 1rem;padding-top:1.25rem;border-top:1px solid rgba(8,23,34,.18)}
+.research-profile-nav a{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em}
+.about-editorial{margin:1rem 0 4rem;padding:clamp(2rem,5vw,5rem) 0;border-top:1px solid rgba(8,23,34,.18);border-bottom:1px solid rgba(8,23,34,.18)}
+.about-editorial-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(2rem,6vw,6rem)}
+.about-editorial h2{font-size:clamp(2.4rem,5vw,5.4rem);line-height:.98;margin:.5rem 0}
+.about-editorial p{font-size:1.06rem;line-height:1.75}
+.collaboration-grid{display:grid;grid-template-columns:repeat(4,1fr);margin-top:3rem;border-top:1px solid rgba(255,255,255,.25);border-left:1px solid rgba(255,255,255,.25)}
+.collaboration-grid article{padding:2rem 1.5rem 2.5rem;border-right:1px solid rgba(255,255,255,.25);border-bottom:1px solid rgba(255,255,255,.25)}
+.collaboration-grid article>span{font-size:.72rem;letter-spacing:.12em;opacity:.65}
+.collaboration-grid h3{font-size:1.5rem;margin:1.4rem 0 .8rem}
+.collaboration-grid p{font-size:.92rem;line-height:1.65}
+.collaboration-grid a{display:inline-block;margin-top:1rem}
+.collaboration-cta{display:grid;grid-template-columns:1.25fr .75fr;gap:2rem;align-items:end;margin-top:2.5rem}
+@media(max-width:900px){.collaboration-grid{grid-template-columns:repeat(2,1fr)}.collaboration-cta,.about-editorial-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.collaboration-grid{grid-template-columns:1fr}}
