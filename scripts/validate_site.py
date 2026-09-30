@@ -136,8 +136,9 @@ def check():
             evidence_registry=json.loads(evidence_path.read_text())
             items=evidence_registry.get('evidence',[])
             ids=[x.get('id') for x in items]
-            if not items or any(not x.get('source_url') or not x.get('source_type') or not x.get('supports') or not x.get('boundaries') for x in items): errors.append('assets/data/evidence-registry.json: every evidence item needs source_url, source_type, supports and boundaries')
+            if not items or any(not x.get('source_url') or not x.get('source_type') or not x.get('supports') or not x.get('boundaries') or x.get('verification_level') not in ('direct','corroborating','discovery') for x in items): errors.append('assets/data/evidence-registry.json: every evidence item needs source_url, source_type, supports, boundaries and a valid verification_level')
             if len(ids)!=len(set(ids)): errors.append('assets/data/evidence-registry.json: evidence IDs must be unique')
+            if any(x.get('verification_level')=='discovery' and not x.get('boundaries') for x in items): errors.append('assets/data/evidence-registry.json: discovery-level signals must remain source-bounded')
             for required_id in ('elon-resilience-2026','toriba-brazil','ieee-cpils-2025','philpapers-bureaucracy-2019','hungary-citation-2025','teach-future-wfd-2026'):
                 if required_id not in ids: errors.append('assets/data/evidence-registry.json: missing protected evidence item '+required_id)
         except Exception as exc:
