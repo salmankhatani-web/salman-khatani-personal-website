@@ -125,6 +125,8 @@ def check():
     imagining_page=(ROOT/'research'/'imagining-with-imaginables'/'index.html').read_text()
     foresight_hub=(ROOT/'futures-studies-and-foresight'/'index.html').read_text()
     if 'imagining-with-imaginables/#article' not in research_index or 'imagining-with-imaginables/#article' not in foresight_hub or 'intuition-scenario-planning-iii/#article' not in imagining_page: errors.append('research: futures research cluster must retain imagination study and scholarly relationships')
+    fl_hub=(ROOT/'futures-literacy'/'index.html').read_text()
+    if 'futures-literacy-labs-climate-change/#article' not in fl_hub or 'intuition-scenario-planning-iii/#article' not in fl_hub or 'imagining-with-imaginables/#article' not in fl_hub or 'iqra.edu.pk/futures-literacy-ai-literacy' not in fl_hub: errors.append('futures-literacy/index.html: Futures Literacy hub must retain scholarly cluster and institutional corroboration')
     responsible_ai=(ROOT/'responsible-ai'/'index.html').read_text()
     if '76-78-MAJ_1373' not in responsible_ai or 'AI Governance' not in responsible_ai: errors.append('responsible-ai/index.html: Responsible AI topic graph must retain ICMA governance evidence')
     person_block = homepage[homepage.find('"@type":"Person"'):homepage.find('</script>', homepage.find('"@type":"Person"'))]
