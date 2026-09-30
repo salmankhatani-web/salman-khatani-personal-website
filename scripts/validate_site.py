@@ -129,9 +129,23 @@ def check():
     if 'imagining-with-imaginables/#article' not in research_index or 'imagining-with-imaginables/#article' not in foresight_hub or 'intuition-scenario-planning-iii/#article' not in imagining_page: errors.append('research: futures research cluster must retain imagination study and scholarly relationships')
     fl_hub=(ROOT/'futures-literacy'/'index.html').read_text()
     if 'futures-literacy-labs-climate-change/#article' not in fl_hub or 'intuition-scenario-planning-iii/#article' not in fl_hub or 'imagining-with-imaginables/#article' not in fl_hub or 'iqra.edu.pk/futures-literacy-ai-literacy' not in fl_hub: errors.append('futures-literacy/index.html: Futures Literacy hub must retain scholarly cluster and institutional corroboration')
+    evidence_path=ROOT/'assets'/'data'/'evidence-registry.json'
+    if not evidence_path.is_file(): errors.append('assets/data/evidence-registry.json: machine-readable evidence registry missing')
+    else:
+        try:
+            evidence_registry=json.loads(evidence_path.read_text())
+            items=evidence_registry.get('evidence',[])
+            ids=[x.get('id') for x in items]
+            if not items or any(not x.get('source_url') or not x.get('source_type') or not x.get('supports') or not x.get('boundaries') for x in items): errors.append('assets/data/evidence-registry.json: every evidence item needs source_url, source_type, supports and boundaries')
+            if len(ids)!=len(set(ids)): errors.append('assets/data/evidence-registry.json: evidence IDs must be unique')
+            for required_id in ('elon-resilience-2026','toriba-brazil','ieee-cpils-2025','philpapers-bureaucracy-2019','hungary-citation-2025','teach-future-wfd-2026'):
+                if required_id not in ids: errors.append('assets/data/evidence-registry.json: missing protected evidence item '+required_id)
+        except Exception as exc:
+            errors.append('assets/data/evidence-registry.json: evidence registry must parse as JSON: '+str(exc))
     professional_record=(ROOT/'professional-record'/'index.html').read_text()
     future_ready=(ROOT/'future-ready-education'/'index.html').read_text()
     if 'Elon University' not in professional_record or '10.1109/IC2E65552.2025.00022' not in professional_record or 'adc.ustp.at/programm/beitraege/binational-cyber-physical-immersive-learning-spaces' not in professional_record or 'research.usc.edu.au' not in professional_record or '10.14513/tge-jres.00414' not in professional_record or '10.33394/j-ps.v14i2.20942' not in professional_record or 'dawn.com/news/1285472' not in professional_record: errors.append('professional-record/index.html: external evidence page must retain Elon, CPILS, UniSC, international scholarly citations and Dawn 2016 signals')
+    if 'assets/data/evidence-registry.json' not in professional_record or 'openurl.ebsco.com' not in professional_record or 'mendeley.com/catalogue/e9b93a37-f892-3d39-8a9d-c4cf00336ae1' not in professional_record: errors.append('professional-record/index.html: retain source-bounded evidence registry and bibliographic discovery links')
     if 'philpapers.org/rec/KHAARO-8' not in professional_record or 'dblp.org/rec/conf/ic2e/SantellanOSKS25' not in professional_record: errors.append('professional-record/index.html: retain PhilPapers and DBLP cross-disciplinary indexing evidence')
     if '10.7176/JESD/10-3-12' not in professional_record: errors.append('professional-record/index.html: retain bounded 2019 Karachi future-oriented research continuity')
     if 'philpapers.org/rec/KHAARO-8' not in research_index or 'dblp.org/rec/conf/ic2e/SantellanOSKS25' not in research_index: errors.append('research/index.html: retain specialist scholarly indexing discovery paths')
