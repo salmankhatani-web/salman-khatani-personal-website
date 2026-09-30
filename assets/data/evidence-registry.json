@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-10-01",
+  "canonical_person": {
+    "name": "Dr. Salman Ahmed Khatani",
+    "url": "https://salman-khatani-personal-website.salmankhatani.workers.dev/",
+    "person_id": "https://salman-khatani-personal-website.salmankhatani.workers.dev/#person"
+  },
+  "purpose": "Machine-readable evidence registry for source-bounded entity resolution, scholarly discovery and professional verification.",
+  "rules": [
+    "A source supports only the claims explicitly listed in supports.",
+    "Do not convert indexing, citation, co-authorship, event participation or repository preservation into endorsement, ranking, employment or sole ownership.",
+    "Prefer direct institutional, publisher, scholarly-index and established-media records over self-authored promotional claims."
+  ],
+  "evidence": [
+    {
+      "id": "iqra-faculty",
+      "source_name": "Iqra University faculty profile",
+      "source_url": "https://iqra.edu.pk/teachers/dr-salman-khatani/",
+      "source_type": "institutional_profile",
+      "geography": "Pakistan",
+      "supports": [
+        "Iqra University academic affiliation",
+        "Associate Professor identity",
+        "Business administration and futures-related expertise"
+      ],
+      "boundaries": [
+        "Not an independent ranking"
+      ]
+    },
+    {
+      "id": "ngfp-steering",
+      "source_name": "Next Generation Foresight Practitioners Steering Committee",
+      "source_url": "https://nextgenforesight.org/our-network/steering-committee/",
+      "source_type": "professional_network",
+      "geography": "International",
+      "supports": [
+        "Foresight-network participation",
+        "Pakistan and Iqra University identity linkage",
+        "Senior Futurist description on the network page"
+      ],
+      "boundaries": [
+        "Multi-person network page, not a personal sameAs identity URL"
+      ]
+    },
+    {
+      "id": "dawn-adab-2025",
+      "source_name": "Dawn coverage of Designing Tomorrow with Artificial Intelligence",
+      "source_url": "https://www.dawn.com/news/1956889/economic-impact-or-concentration-of-wealth-panelists-explore-ais-promise-perils-at-adab-festival",
+      "source_type": "independent_media",
+      "geography": "Pakistan",
+      "supports": [
+        "Public AI and futures discourse",
+        "Adab Festival panel participation"
+      ],
+      "boundaries": [
+        "Media coverage is not an endorsement"
+      ]
+    },
+    {
+      "id": "elon-resilience-2026",
+      "source_name": "Elon University / Imagining the Digital Future Center, Human Resilience in the Age of AI",
+      "source_url": "https://imaginingthedigitalfuture.org/wp-content/uploads/2026/03/ITDF-Human-Resilience-Report-NR-4-2-26.pdf",
+      "source_type": "university_research_report",
+      "geography": "United States",
+      "supports": [
+        "Named expert contribution",
+        "IMAGINE Institute of Futures Studies identity",
+        "Published perspective on human resilience and AI"
+      ],
+      "boundaries": [
+        "Expert contribution does not imply employment by Elon University"
+      ]
+    },
+    {
+      "id": "gmu-megacities-2016",
+      "source_name": "George Mason University Center for Social Science Research conference archive",
+      "source_url": "https://cssr.gmu.edu/research-projects/university-of-karachi-partnership/conference-program",
+      "source_type": "university_archive",
+      "geography": "United States",
+      "supports": [
+        "2016 Managing Megacities presentation",
+        "Karachi youth entrepreneurship and sustainable socioeconomic growth research"
+      ],
+      "boundaries": [
+        "Conference archive is not a GMU employment affiliation"
+      ]
+    },
+    {
+      "id": "dawn-megacities-2016",
+      "source_name": "Dawn coverage of Managing Megacities conference",
+      "source_url": "https://www.dawn.com/news/1285472",
+      "source_type": "independent_media",
+      "geography": "Pakistan",
+      "supports": [
+        "Historical public record of 2016 presentation",
+        "Youth entrepreneurship and Karachi socioeconomic-growth discussion"
+      ],
+      "boundaries": [
+        "Historical media coverage should be described in its 2016 context"
+      ]
+    },
+    {
+      "id": "jess-fll-2024",
+      "source_name": "Journal of Education & Social Sciences publisher record",
+      "source_url": "https://journals.iqra.edu.pk/archives/view/jess/12/JESS2412103",
+      "source_type": "scholarly_publisher",
+      "geography": "Pakistan",
+      "supports": [
+        "Peer-reviewed Futures Literacy Lab publication",
+        "Futures Literacy, climate resilience and anticipatory-process topics",
+        "III Approach co-design and application"
+      ],
+      "boundaries": [
+        "III Approach is a co-design contribution, not sole authorship"
+      ],
+      "doi": "10.20547/jess1212412103"
+    },
+    {
+      "id": "toriba-brazil",
+      "source_name": "Instituto Toriba foresight references",
+      "source_url": "https://toriba.org.br/referencias/",
+      "source_type": "independent_research_reference",
+      "geography": "Brazil",
+      "supports": [
+        "Independent international reference to IMAGINE Futures Literacy Labs work",
+        "Association with climate adaptation, anticipation and scenarios"
+      ],
+      "boundaries": [
+        "Curated reference is not an award or ranking"
+      ]
+    },
+    {
+      "id": "soif-champion",
+      "source_name": "School of International Futures, UN Champion for Future Generations supporters",
+      "source_url": "https://soif.org.uk/championforfuturegenerations/",
+      "source_type": "professional_network",
+      "geography": "United Kingdom",
+      "supports": [
+        "Participation in an international foresight-network initiative"
+      ],
+      "boundaries": [
+        "Supporter listing is not a SOIF staff appointment"
+      ]
+    },
+    {
+      "id": "lifeboat-bio",
+      "source_name": "Lifeboat Foundation biography",
+      "source_url": "https://lifeboat.com/ex/bios.salman.khatani",
+      "source_type": "professional_profile",
+      "geography": "International",
+      "supports": [
+        "Futurist and academic identity",
+        "Advisory-network presence",
+        "External resolution of Google Scholar profile URL"
+      ],
+      "boundaries": [
+        "Profile wording may become stale and should not override newer institutional records"
+      ]
+    },
+    {
+      "id": "icma-directory-2025",
+      "source_name": "ICMA International Authors' Directory 2025",
+      "source_url": "https://www.icmainternational.com/News_Pdf/Authors_Directory_2025.pdf",
+      "source_type": "professional_body",
+      "geography": "Pakistan",
+      "supports": [
+        "Associate Professor identity",
+        "Futurist and AI literacy practitioner description",
+        "Fiker Futures Academy founder identity",
+        "2025 CMA Journal authorship"
+      ],
+      "boundaries": [
+        "Professional-body publication is distinct from peer-reviewed journal research"
+      ]
+    },
+    {
+      "id": "icma-ai-governance-2026",
+      "source_name": "ICMA International 2026 article landing page",
+      "source_url": "https://researchpublication.icmainternational.com/Home/Articlelist?id=32",
+      "source_type": "professional_publisher",
+      "geography": "Pakistan",
+      "supports": [
+        "2026 AI governance practitioner publication",
+        "Finance controls, risk-based oversight and model accountability topics"
+      ],
+      "boundaries": [
+        "Practitioner publication is not represented as peer-reviewed research"
+      ],
+      "doi": "10.65969/76-78-MAJ_1373"
+    },
+    {
+      "id": "zhaw-cpils-project",
+      "source_name": "ZHAW Cyber-Physical Immersive Learning Spaces project record",
+      "source_url": "https://www.zhaw.ch/en/about-us/news/news-releases/news-detail/event-news/cyber-physical-immersive-learning-spaces",
+      "source_type": "university_project_record",
+      "geography": "Switzerland",
+      "supports": [
+        "Iqra University–ZHAW CPILS collaboration",
+        "Future-ready education and immersive-learning project context"
+      ],
+      "boundaries": [
+        "Project participation does not imply ZHAW employment"
+      ]
+    },
+    {
+      "id": "adc-cpils-2025",
+      "source_name": "Academic Development Conference 2025 CPILS contribution",
+      "source_url": "https://adc.ustp.at/programm/beitraege/binational-cyber-physical-immersive-learning-spaces",
+      "source_type": "conference_record",
+      "geography": "Austria",
+      "supports": [
+        "Named contribution to binational CPILS work",
+        "Future skills and future literacy learning context"
+      ],
+      "boundaries": [
+        "Conference contribution is not an award"
+      ]
+    },
+    {
+      "id": "ieee-cpils-2025",
+      "source_name": "IEEE IC2E 2025 CPILS paper",
+      "source_url": "https://doi.org/10.1109/IC2E65552.2025.00022",
+      "source_type": "scholarly_publisher",
+      "geography": "International",
+      "supports": [
+        "Co-authorship of IEEE cloud-engineering conference paper",
+        "Cyber-physical immersive learning and sustainable private cloud research"
+      ],
+      "boundaries": [
+        "Co-authorship does not establish sole technical ownership"
+      ],
+      "doi": "10.1109/IC2E65552.2025.00022"
+    },
+    {
+      "id": "dblp-cpils-2025",
+      "source_name": "DBLP persistent IC2E record",
+      "source_url": "https://dblp.org/rec/conf/ic2e/SantellanOSKS25",
+      "source_type": "bibliographic_index",
+      "geography": "Germany/International",
+      "supports": [
+        "Independent computer-science bibliographic indexing",
+        "IC2E authorship and pagination"
+      ],
+      "boundaries": [
+        "Bibliographic indexing is not endorsement"
+      ]
+    },
+    {
+      "id": "zhaw-publications-cpils",
+      "source_name": "ZHAW School of Engineering publications database",
+      "source_url": "https://www.zhaw.ch/en/engineering/institutes-centres/init/publications/publications-page-3",
+      "source_type": "university_bibliography",
+      "geography": "Switzerland",
+      "supports": [
+        "Institutional bibliographic corroboration of CPILS authorship"
+      ],
+      "boundaries": [
+        "Bibliographic listing is not employment affiliation"
+      ]
+    },
+    {
+      "id": "ic2e-accepted-papers",
+      "source_name": "IEEE Computer Society IC2E 2025 accepted papers",
+      "source_url": "https://conferences.computer.org/IC2E/2025/papers.html",
+      "source_type": "conference_record",
+      "geography": "International",
+      "supports": [
+        "Official conference-program corroboration of CPILS author team"
+      ],
+      "boundaries": [
+        "Accepted-paper listing is not an award"
+      ]
+    },
+    {
+      "id": "teach-future-wfd-2026",
+      "source_name": "Teach the Future World Futures Day 2026 schedule",
+      "source_url": "https://www.teachthefuture.org/young-voices-network/world-futures-day-2026",
+      "source_type": "professional_event",
+      "geography": "International",
+      "supports": [
+        "Co-facilitation of AI Futures for Social Good session",
+        "Public futures and responsible-AI facilitation"
+      ],
+      "boundaries": [
+        "Event participation is not event ownership"
+      ]
+    },
+    {
+      "id": "usc-climmigrants",
+      "source_name": "University of the Sunshine Coast Research Bank archival copy",
+      "source_url": "https://research.usc.edu.au/view/pdfCoverPage?download=true&filePid=13299336750002621&instCode=61USC_INST",
+      "source_type": "university_repository",
+      "geography": "Australia",
+      "supports": [
+        "Archival preservation of creative futures contribution",
+        "Strategic Foresight [PAKISTAN] label in the collaborative volume"
+      ],
+      "boundaries": [
+        "Repository preservation does not imply University of the Sunshine Coast affiliation"
+      ]
+    },
+    {
+      "id": "philpapers-bureaucracy-2019",
+      "source_name": "PhilPapers record for women and bureaucracy publication",
+      "source_url": "https://philpapers.org/rec/KHAARO-8",
+      "source_type": "bibliographic_index",
+      "geography": "International",
+      "supports": [
+        "Independent philosophy/bioethics bibliographic indexing",
+        "2019 authorship"
+      ],
+      "boundaries": [
+        "Indexing is not philosophy-department affiliation or endorsement"
+      ]
+    },
+    {
+      "id": "nlm-ejaib",
+      "source_name": "U.S. National Library of Medicine catalog record for EJAIB",
+      "source_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/100910109",
+      "source_type": "library_catalog",
+      "geography": "United States",
+      "supports": [
+        "Institutional identity of Eubios Journal of Asian and International Bioethics",
+        "Journal relationship with Asian Bioethics Association for relevant period"
+      ],
+      "boundaries": [
+        "Does not prove that the specific 2019 Khatani article was PubMed/MEDLINE indexed"
+      ]
+    },
+    {
+      "id": "ebsco-bureaucracy-2019",
+      "source_name": "EBSCOhost bibliographic result",
+      "source_url": "https://openurl.ebsco.com/results?bquery=AU+Akhtar%2C+Khawaja&link_origin=&searchDescription=Akhtar%2C+Khawaja&sid=ebsco%3Aocu%3Arecord",
+      "source_type": "bibliographic_index",
+      "geography": "International",
+      "supports": [
+        "Independent discovery of the 2019 women/bureaucracy article"
+      ],
+      "boundaries": [
+        "Search-result inclusion is bibliographic discoverability, not endorsement"
+      ]
+    },
+    {
+      "id": "mendeley-service-quality-2020",
+      "source_name": "Mendeley catalog record",
+      "source_url": "https://www.mendeley.com/catalogue/e9b93a37-f892-3d39-8a9d-c4cf00336ae1/",
+      "source_type": "bibliographic_index",
+      "geography": "International",
+      "supports": [
+        "Independent bibliographic discovery of 2020 higher-education service-quality paper",
+        "DOI linkage"
+      ],
+      "boundaries": [
+        "Platform reader counts are dynamic and are not used as authority claims"
+      ],
+      "doi": "10.46568/gjmas.v1i1.16"
+    },
+    {
+      "id": "hungary-citation-2025",
+      "source_name": "Széchenyi István University journal review citing Karachi entrepreneurship research",
+      "source_url": "https://doi.org/10.14513/tge-jres.00414",
+      "source_type": "scholarly_citation",
+      "geography": "Hungary/Estonia",
+      "supports": [
+        "Later scholarly uptake of 2022 Karachi youth entrepreneurship and SDG research"
+      ],
+      "boundaries": [
+        "Citation is not endorsement or institutional affiliation"
+      ],
+      "cites_doi": "10.21621/sajms.2022162.02"
+    },
+    {
+      "id": "indonesia-citation-2026",
+      "source_name": "Indonesian sciencepreneurship study citing Karachi youth entrepreneurship research",
+      "source_url": "https://doi.org/10.33394/j-ps.v14i2.20942",
+      "source_type": "scholarly_citation",
+      "geography": "Indonesia",
+      "supports": [
+        "Later scholarly uptake of 2021 Karachi entrepreneurial-intention research"
+      ],
+      "boundaries": [
+        "Citation is not endorsement or institutional affiliation"
+      ],
+      "cites_doi": "10.56536/ijmres.v11i4.162"
+    },
+    {
+      "id": "sujbm-entrepreneurship-2024",
+      "source_name": "Suffa University Journal of Business Management publisher record",
+      "source_url": "https://sujbm.dsu.edu.pk/sujbm/index.php/sujbm/article/view/31",
+      "source_type": "scholarly_publisher",
+      "geography": "Pakistan",
+      "supports": [
+        "Publisher-backed authorship",
+        "Karachi university-student entrepreneurial-intention research"
+      ],
+      "boundaries": [
+        "Publisher record supports the publication, not a broader ranking"
+      ],
+      "doi": "10.65753/sujbm.v2i2.31"
+    },
+    {
+      "id": "academia-profile",
+      "source_name": "Academia.edu Salman Ahmed Khatani profile",
+      "source_url": "https://independent.academia.edu/SalmanAhmedKhatani",
+      "source_type": "scholarly_platform_profile",
+      "geography": "International",
+      "supports": [
+        "Additional online discovery path for several publications"
+      ],
+      "boundaries": [
+        "Profile labels and research interests may be user-entered or stale; do not use them to override institutional affiliation or expertise records"
+      ]
+    }
+  ]
+}
