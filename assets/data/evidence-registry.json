@@ -26,7 +26,9 @@
       ],
       "boundaries": [
         "Not an independent ranking"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "ngfp-steering",
@@ -41,7 +43,9 @@
       ],
       "boundaries": [
         "Multi-person network page, not a personal sameAs identity URL"
-      ]
+      ],
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "dawn-adab-2025",
@@ -55,7 +59,9 @@
       ],
       "boundaries": [
         "Media coverage is not an endorsement"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "elon-resilience-2026",
@@ -70,7 +76,9 @@
       ],
       "boundaries": [
         "Expert contribution does not imply employment by Elon University"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "gmu-megacities-2016",
@@ -84,7 +92,9 @@
       ],
       "boundaries": [
         "Conference archive is not a GMU employment affiliation"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "dawn-megacities-2016",
@@ -98,7 +108,9 @@
       ],
       "boundaries": [
         "Historical media coverage should be described in its 2016 context"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "jess-fll-2024",
@@ -114,7 +126,9 @@
       "boundaries": [
         "III Approach is a co-design contribution, not sole authorship"
       ],
-      "doi": "10.20547/jess1212412103"
+      "doi": "10.20547/jess1212412103",
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "toriba-brazil",
@@ -128,7 +142,9 @@
       ],
       "boundaries": [
         "Curated reference is not an award or ranking"
-      ]
+      ],
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "soif-champion",
@@ -141,7 +157,9 @@
       ],
       "boundaries": [
         "Supporter listing is not a SOIF staff appointment"
-      ]
+      ],
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "lifeboat-bio",
@@ -156,7 +174,9 @@
       ],
       "boundaries": [
         "Profile wording may become stale and should not override newer institutional records"
-      ]
+      ],
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "icma-directory-2025",
@@ -172,7 +192,9 @@
       ],
       "boundaries": [
         "Professional-body publication is distinct from peer-reviewed journal research"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "icma-ai-governance-2026",
@@ -187,7 +209,9 @@
       "boundaries": [
         "Practitioner publication is not represented as peer-reviewed research"
       ],
-      "doi": "10.65969/76-78-MAJ_1373"
+      "doi": "10.65969/76-78-MAJ_1373",
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "zhaw-cpils-project",
@@ -201,7 +225,9 @@
       ],
       "boundaries": [
         "Project participation does not imply ZHAW employment"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "adc-cpils-2025",
@@ -215,7 +241,9 @@
       ],
       "boundaries": [
         "Conference contribution is not an award"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "ieee-cpils-2025",
@@ -230,7 +258,9 @@
       "boundaries": [
         "Co-authorship does not establish sole technical ownership"
       ],
-      "doi": "10.1109/IC2E65552.2025.00022"
+      "doi": "10.1109/IC2E65552.2025.00022",
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "dblp-cpils-2025",
@@ -244,7 +274,9 @@
       ],
       "boundaries": [
         "Bibliographic indexing is not endorsement"
-      ]
+      ],
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "zhaw-publications-cpils",
@@ -257,7 +289,9 @@
       ],
       "boundaries": [
         "Bibliographic listing is not employment affiliation"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "ic2e-accepted-papers",
@@ -270,7 +304,9 @@
       ],
       "boundaries": [
         "Accepted-paper listing is not an award"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "teach-future-wfd-2026",
@@ -284,7 +320,9 @@
       ],
       "boundaries": [
         "Event participation is not event ownership"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "usc-climmigrants",
@@ -298,7 +336,9 @@
       ],
       "boundaries": [
         "Repository preservation does not imply University of the Sunshine Coast affiliation"
-      ]
+      ],
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "philpapers-bureaucracy-2019",
@@ -312,7 +352,9 @@
       ],
       "boundaries": [
         "Indexing is not philosophy-department affiliation or endorsement"
-      ]
+      ],
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "nlm-ejaib",
@@ -326,7 +368,9 @@
       ],
       "boundaries": [
         "Does not prove that the specific 2019 Khatani article was PubMed/MEDLINE indexed"
-      ]
+      ],
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "ebsco-bureaucracy-2019",
@@ -339,7 +383,9 @@
       ],
       "boundaries": [
         "Search-result inclusion is bibliographic discoverability, not endorsement"
-      ]
+      ],
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "mendeley-service-quality-2020",
@@ -354,7 +400,9 @@
       "boundaries": [
         "Platform reader counts are dynamic and are not used as authority claims"
       ],
-      "doi": "10.46568/gjmas.v1i1.16"
+      "doi": "10.46568/gjmas.v1i1.16",
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "hungary-citation-2025",
@@ -368,7 +416,9 @@
       "boundaries": [
         "Citation is not endorsement or institutional affiliation"
       ],
-      "cites_doi": "10.21621/sajms.2022162.02"
+      "cites_doi": "10.21621/sajms.2022162.02",
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "indonesia-citation-2026",
@@ -382,7 +432,9 @@
       "boundaries": [
         "Citation is not endorsement or institutional affiliation"
       ],
-      "cites_doi": "10.56536/ijmres.v11i4.162"
+      "cites_doi": "10.56536/ijmres.v11i4.162",
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "sujbm-entrepreneurship-2024",
@@ -397,7 +449,9 @@
       "boundaries": [
         "Publisher record supports the publication, not a broader ranking"
       ],
-      "doi": "10.65753/sujbm.v2i2.31"
+      "doi": "10.65753/sujbm.v2i2.31",
+      "verification_level": "direct",
+      "last_verified": "2026-10-01"
     },
     {
       "id": "academia-profile",
@@ -410,7 +464,56 @@
       ],
       "boundaries": [
         "Profile labels and research interests may be user-entered or stale; do not use them to override institutional affiliation or expertise records"
-      ]
+      ],
+      "verification_level": "discovery",
+      "last_verified": "2026-10-01"
+    },
+    {
+      "id": "scopus-cpils-paper-signal",
+      "source_name": "Elsevier ScienceDirect author page showing CPILS as a Scopus Conference paper",
+      "source_url": "https://www.sciencedirect.com/author/14042825100/josef-spillner",
+      "source_type": "discovery_signal",
+      "geography": "International",
+      "supports": [
+        "Paper-level signal that the 2025 CPILS conference paper is represented as a Scopus Conference paper in Elsevier's author metadata"
+      ],
+      "boundaries": [
+        "Does not resolve or verify a Salman Ahmed Khatani Scopus Author ID",
+        "Do not convert this into a personal Scopus-profile claim until a direct author record is verified"
+      ],
+      "related_doi": "10.1109/IC2E65552.2025.00022",
+      "verification_level": "discovery",
+      "last_verified": "2026-10-01"
+    },
+    {
+      "id": "wayamba-sacfire-2024-citation",
+      "source_name": "Wayamba University of Sri Lanka Faculty of Business Studies and Finance, SACFIRE 2024 Proceedings",
+      "source_url": "https://fbsf.wyb.ac.lk/wp-content/uploads/2024/12/SACFIRE-2024-Proceedings.pdf",
+      "source_type": "conference_proceedings_citation",
+      "geography": "Sri Lanka",
+      "supports": [
+        "The proceedings bibliography includes Khatani et al. (2021), Investigating entrepreneurial intention among the youth of Karachi, DOI 10.56536/ijmres.v11i4.162"
+      ],
+      "boundaries": [
+        "The exact citing contribution title was not independently resolved during this verification pass",
+        "Treat as a citation trace within the proceedings volume, not as an affiliation or endorsement"
+      ],
+      "cites_doi": "10.56536/ijmres.v11i4.162",
+      "verification_level": "corroborating",
+      "last_verified": "2026-10-01"
     }
-  ]
+  ],
+  "methodology": {
+    "discovery_pipeline": [
+      "Exact-name and name-variant searches",
+      "DOI reverse searches",
+      "Citing-paper and reference-list searches",
+      "University and institutional repository searches",
+      "Conference programme and proceedings searches",
+      "Bibliographic index and library-catalog searches",
+      "Established media archive searches"
+    ],
+    "publication_rule": "Only direct or corroborating evidence should normally be promoted to the public Professional Record. Discovery-level signals remain machine-tracked until independently resolved.",
+    "identity_rule": "Never infer a personal author identifier from a co-author record, paper-level index signal, organization page or search snippet."
+  }
 }
