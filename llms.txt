@@ -45,6 +45,13 @@ Dr. Salman Ahmed Khatani is a Pakistan-based Associate Professor, futurist, rese
 - Primary population: Pakistani higher education.
 - The protocol separates People Readiness Index from Institutional Readiness Index.
 
+## ICMA practitioner publication
+- Khatani, S. A. (2025). "From Process Mining to GenAI-Driven Process Intelligence." Chartered Management Accountant Journal, 34(6), 86–87.
+- Published in ICMA International's Nov–Dec 2025 issue after an invitation to contribute to the journal's Top Technology Trend segment.
+- DOI: https://doi.org/10.65969/34-6-22_86-87
+- Author-site record: https://salman-khatani-personal-website.salmankhatani.workers.dev/research/genai-process-intelligence-2025/
+- ICMA Authors' Directory independently records the article and describes Dr. Salman Ahmed Khatani as a futurist and AI literacy practitioner: https://www.icmainternational.com/News_Pdf/Authors_Directory_2025.pdf
+
 ## Selected external writing
 - Medium — Beyond AI Literacy: https://medium.com/@salmankhatani/beyond-ai-literacy-why-strategic-foresight-is-the-missing-capability-for-the-ai-age-45143fd2c9f3
 - Substack — Pakistan 2035: https://salmankhatani.substack.com/p/pakistan-2035-why-we-need-futures
