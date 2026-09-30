@@ -122,6 +122,9 @@ def check():
     if 'III Approach' not in fll_page or 'Intuition, Interpretation and Innovation' not in fll_page: errors.append('research/futures-literacy-labs-climate-change/index.html: retain publisher-backed III Approach methodological contribution')
     iii_page=(ROOT/'research'/'intuition-scenario-planning-iii'/'index.html').read_text()
     if 'futures-literacy-labs-climate-change' not in iii_page or 'intuition-scenario-planning-iii/#article' not in iii_page or 'intuition-scenario-planning-iii/#article' not in research_index: errors.append('research: III Approach scholarly thread must remain reciprocal and present in collection graph')
+    imagining_page=(ROOT/'research'/'imagining-with-imaginables'/'index.html').read_text()
+    foresight_hub=(ROOT/'futures-studies-and-foresight'/'index.html').read_text()
+    if 'imagining-with-imaginables/#article' not in research_index or 'imagining-with-imaginables/#article' not in foresight_hub or 'intuition-scenario-planning-iii/#article' not in imagining_page: errors.append('research: futures research cluster must retain imagination study and scholarly relationships')
     responsible_ai=(ROOT/'responsible-ai'/'index.html').read_text()
     if '76-78-MAJ_1373' not in responsible_ai or 'AI Governance' not in responsible_ai: errors.append('responsible-ai/index.html: Responsible AI topic graph must retain ICMA governance evidence')
     person_block = homepage[homepage.find('"@type":"Person"'):homepage.find('</script>', homepage.find('"@type":"Person"'))]
