@@ -114,6 +114,8 @@ def check():
     if 'Salman Khadani' in homepage: errors.append('index.html: typo alias Salman Khadani must not appear in canonical entity data')
     if 'https://dev.iqra.edu.pk/teachers/dr-salman-khatani/' in homepage: errors.append('index.html: use production iqra.edu.pk faculty profile, not dev.iqra.edu.pk')
     if '"subjectOf"' not in homepage or '10.65969/76-78-MAJ_1373' not in homepage: errors.append('index.html: homepage Person schema must retain verified subjectOf evidence')
+    research_index=(ROOT/'research'/'index.html').read_text()
+    if '34-6-22_86-87' not in research_index or '76-78-MAJ_1373' not in research_index: errors.append('research/index.html: research collection must expose both ICMA practitioner publication nodes')
     person_block = homepage[homepage.find('"@type":"Person"'):homepage.find('</script>', homepage.find('"@type":"Person"'))]
     if '"sameAs"' in person_block and 'https://fikerfuturesacademy.lovable.app/' in person_block.split('"sameAs"',1)[1].split(']',1)[0]: errors.append('index.html: organization URL must not be a Person sameAs identity target')
     oldlocs={e.text for e in ET.fromstring(baseline['infrastructure']['sitemap.xml']).iter() if e.tag.endswith('loc')}
