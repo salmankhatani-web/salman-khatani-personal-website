@@ -118,6 +118,7 @@ def check():
     if '10.20547/jess1212412103' not in homepage or 'cssr.gmu.edu/research-projects/university-of-karachi-partnership/conference-program' not in homepage: errors.append('index.html: retain publisher-backed Futures Literacy and GMU institutional evidence in Person graph')
     research_index=(ROOT/'research'/'index.html').read_text()
     if '34-6-22_86-87' not in research_index or '76-78-MAJ_1373' not in research_index: errors.append('research/index.html: research collection must expose both ICMA practitioner publication nodes')
+    if 'scholar.google.com/citations?hl=en&amp;user=RP2SnY8AAAAJ' not in research_index: errors.append('research/index.html: Research page must retain resolved Google Scholar profile')
     if '10.65753/sujbm.v2i2.31' not in research_index: errors.append('research/index.html: retain SUJBM publisher-backed entrepreneurship DOI in scholarly graph')
     fll_page=(ROOT/'research'/'futures-literacy-labs-climate-change'/'index.html').read_text()
     if 'III Approach' not in fll_page or 'Intuition, Interpretation and Innovation' not in fll_page: errors.append('research/futures-literacy-labs-climate-change/index.html: retain publisher-backed III Approach methodological contribution')
