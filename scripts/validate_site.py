@@ -72,7 +72,10 @@ def check():
         if '#main' not in p.links: errors.append(f'{name}: missing skip link to main content')
         if len(p.canonical)!=1: errors.append(f'{name}: requires one canonical')
         if not p.title: errors.append(f'{name}: missing title')
-        if 'description' not in metadata(p.meta): errors.append(f'{name}: missing description')
+        page_meta=metadata(p.meta)
+        if 'description' not in page_meta: errors.append(f'{name}: missing description')
+        for prop in ('og:title','og:description','og:url'):
+            if prop not in page_meta: errors.append(f'{name}: missing {prop}')
         duplicates=[key for key,n in Counter(p.ids).items() if n>1]
         if duplicates: errors.append(f'{name}: duplicate IDs {duplicates}')
         for img in p.images:
