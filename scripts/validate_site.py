@@ -114,6 +114,7 @@ def check():
     if 'Salman Khadani' in homepage: errors.append('index.html: typo alias Salman Khadani must not appear in canonical entity data')
     if 'https://dev.iqra.edu.pk/teachers/dr-salman-khatani/' in homepage: errors.append('index.html: use production iqra.edu.pk faculty profile, not dev.iqra.edu.pk')
     if '"subjectOf"' not in homepage or '10.65969/76-78-MAJ_1373' not in homepage: errors.append('index.html: homepage Person schema must retain verified subjectOf evidence')
+    if '10.20547/jess1212412103' not in homepage or 'cssr.gmu.edu/research-projects/university-of-karachi-partnership/conference-program' not in homepage: errors.append('index.html: retain publisher-backed Futures Literacy and GMU institutional evidence in Person graph')
     research_index=(ROOT/'research'/'index.html').read_text()
     if '34-6-22_86-87' not in research_index or '76-78-MAJ_1373' not in research_index: errors.append('research/index.html: research collection must expose both ICMA practitioner publication nodes')
     if '10.65753/sujbm.v2i2.31' not in research_index: errors.append('research/index.html: retain SUJBM publisher-backed entrepreneurship DOI in scholarly graph')
