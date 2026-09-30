@@ -68,6 +68,8 @@ def check():
     for name,p in pages.items():
         errors.extend(f'{name}: {e}' for e in p.errors)
         if len(p.h1)!=1: errors.append(f'{name}: requires one H1')
+        if 'main' not in p.ids: errors.append(f'{name}: missing main landmark target')
+        if '#main' not in p.links: errors.append(f'{name}: missing skip link to main content')
         if len(p.canonical)!=1: errors.append(f'{name}: requires one canonical')
         if not p.title: errors.append(f'{name}: missing title')
         if 'description' not in metadata(p.meta): errors.append(f'{name}: missing description')
@@ -119,6 +121,6 @@ def check():
         if 'Work in Progress' not in text or 'Version 0.1' not in text: errors.append(name+': missing research status')
     if errors: raise SystemExit('\n'.join(sorted(set(errors))))
     print(f'PASS: {len(pages)} pages; {total} links/assets; {len(oldlocs)} original sitemap URLs retained; metadata, H1s and all existing schema properties preserved.')
-    print('PASS: external source links retained; robots unchanged; llms references retained; PAFRI development status explicit.')
+    print('PASS: main landmarks and skip links present; external source links retained; robots and llms present; PAFRI development status explicit.')
 
 if __name__=='__main__': check()
