@@ -108,6 +108,9 @@ def check():
     # robots.txt may change when the canonical host changes; validate presence instead.
     if not (ROOT/'robots.txt').is_file(): errors.append('robots.txt missing')
     if not (ROOT/'llms.txt').is_file(): errors.append('llms.txt missing')
+    homepage=(ROOT/'index.html').read_text()
+    if 'salmankhatani.workers.dev/#person' not in homepage: errors.append('index.html: canonical Person @id missing')
+    if 'Dr. Salman Ahmed Khatani' not in homepage: errors.append('index.html: canonical Person name missing')
     oldlocs={e.text for e in ET.fromstring(baseline['infrastructure']['sitemap.xml']).iter() if e.tag.endswith('loc')}
     newlocs={e.text for e in ET.parse(ROOT/'sitemap.xml').iter() if e.tag.endswith('loc')}
     # Canonical host migration intentionally replaces historical sitemap hosts; page coverage is checked below.
