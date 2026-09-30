@@ -142,7 +142,7 @@ def check():
     person_pr=professional_record[professional_record.find('"@type":"Person"'):professional_record.find('</script>', professional_record.find('"@type":"Person"'))]
     if 'https://fikerfuturesacademy.lovable.app/' in person_pr.split('"sameAs"',1)[1].split(']',1)[0] if '"sameAs"' in person_pr else False: errors.append('professional-record/index.html: organization URL must not be a Person sameAs identity target')
     if 'nextgenforesight.org/our-network/steering-committee/' in person_pr.split('"sameAs"',1)[1].split(']',1)[0] if '"sameAs"' in person_pr else False: errors.append('professional-record/index.html: multi-person NGFP page belongs in subjectOf/memberOf, not Person sameAs')
-    if '10.1109/IC2E65552.2025.00022' not in future_ready or 'adc.ustp.at/programm/beitraege/binational-cyber-physical-immersive-learning-spaces' not in future_ready: errors.append('future-ready-education/index.html: retain independent CPILS/IEEE evidence')
+    if '10.1109/IC2E65552.2025.00022' not in future_ready or 'adc.ustp.at/programm/beitraege/binational-cyber-physical-immersive-learning-spaces' not in future_ready or 'zhaw.ch/en/engineering/institutes-centres/init/publications/publications-page-3' not in future_ready or 'conferences.computer.org/IC2E/2025/papers.html' not in future_ready: errors.append('future-ready-education/index.html: retain ZHAW and official IC2E CPILS corroboration')
     icma25=(ROOT/'research'/'genai-process-intelligence-2025'/'index.html').read_text()
     icma26=(ROOT/'research'/'governing-ai-finance-leaders-2026'/'index.html').read_text()
     if 'Articlelist?id=32' in icma25: errors.append('research/genai-process-intelligence-2025/index.html: 2026 ICMA landing page must not be attached to 2025 article')
