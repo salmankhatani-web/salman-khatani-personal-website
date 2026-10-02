@@ -105,6 +105,16 @@ def check():
         for link in old['links']:
             url=urljoin(current,link)
             if urlparse(url).netloc!=urlparse(BASE).netloc and url not in all_links: errors.append('Lost external source link: '+url)
+    # Preserve complete CPILS co-authorship and resolve the focal author to one Person.
+    cpils=pages['research/cyber-physical-immersive-learning-2025/index.html'].schemas[0]
+    authors=cpils.get('author',[])
+    expected=['Atik Santellán','Ranjan Ojha','Mehmet Cihan Sakman','Dr. Salman Ahmed Khatani','Josef Spillner']
+    if not isinstance(authors,list) or [a.get('name') for a in authors] != expected:
+        errors.append('CPILS: ordered five-author relationship missing')
+    elif authors[3].get('@id') != BASE+'#person':
+        errors.append('CPILS: canonical Person identity missing')
+    if cpils.get('@id') != 'https://doi.org/10.1109/IC2E65552.2025.00022':
+        errors.append('CPILS: scholarly DOI identity missing')
     # robots.txt may change when the canonical host changes; validate presence instead.
     if not (ROOT/'robots.txt').is_file(): errors.append('robots.txt missing')
     if not (ROOT/'llms.txt').is_file(): errors.append('llms.txt missing')
