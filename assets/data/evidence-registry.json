@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-02",
   "canonical_person": {
     "name": "Dr. Salman Ahmed Khatani",
     "url": "https://salman-khatani-personal-website.salmankhatani.workers.dev/",
@@ -300,13 +300,17 @@
       "source_type": "conference_record",
       "geography": "International",
       "supports": [
-        "Official conference-program corroboration of CPILS author team"
+        "Official conference-program corroboration of CPILS author team",
+        "Ordered five-author team: Atik Santellán; Ranjan Ojha; Mehmet Cihan Sakman; Salman Ahmed Khatani; Josef Spillner"
       ],
       "boundaries": [
-        "Accepted-paper listing is not an award"
+        "Accepted-paper listing is not an award",
+        "Co-authorship does not imply sole ownership or employment by a collaborating institution"
       ],
       "verification_level": "direct",
-      "last_verified": "2026-10-01"
+      "last_verified": "2026-10-02",
+      "related_doi": "10.1109/IC2E65552.2025.00022",
+      "author_record": "https://salman-khatani-personal-website.salmankhatani.workers.dev/research/cyber-physical-immersive-learning-2025/"
     },
     {
       "id": "teach-future-wfd-2026",
