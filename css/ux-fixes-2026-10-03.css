@@ -14,3 +14,10 @@
   .site-nav .header-cta{max-width:none;width:100%;justify-content:center;margin-top:.55rem;line-height:1.25}
   .impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
+
+/* Five-card impact dashboard: balanced desktop layout after ICMA update. */
+@media(min-width:961px){
+  .impact-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+  .impact-card{min-width:0}
+  .impact-card strong{overflow-wrap:anywhere}
+}
