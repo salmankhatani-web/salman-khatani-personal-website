@@ -1,0 +1,16 @@
+/* Responsive UX corrections identified in the 3 Oct 2026 current-build audit. */
+@media(max-width:480px){
+  .impact-card{grid-template-columns:116px minmax(0,1fr)}
+  .impact-card strong{font-size:1.75rem;max-width:100%;overflow-wrap:anywhere}
+}
+
+/* Keep the navigation readable on small tablets instead of compressing seven links. */
+@media(min-width:801px) and (max-width:960px){
+  .header-inner{min-height:74px;flex-wrap:wrap;gap:0}
+  .menu-toggle{display:block;border-color:#d4a28280;border-radius:999px;padding:.45rem .85rem}
+  .site-nav{width:100%;flex-wrap:wrap;gap:.5rem 1.5rem;padding:.8rem 0 1.1rem;border-top:1px solid #ffffff18}
+  .js .site-nav:not(.is-open){display:none}
+  .site-nav a{min-height:46px;font-size:.94rem}
+  .site-nav .header-cta{max-width:none;width:100%;justify-content:center;margin-top:.55rem;line-height:1.25}
+  .impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
