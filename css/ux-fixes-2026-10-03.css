@@ -15,9 +15,28 @@
   .impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 
-/* Five-card impact dashboard: balanced desktop layout after ICMA update. */
+/* Impact dashboard refinement: avoid a spreadsheet-like five-column strip.
+   Three primary signals sit on the first row; two supporting signals span the second row. */
 @media(min-width:961px){
-  .impact-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
-  .impact-card{min-width:0}
-  .impact-card strong{overflow-wrap:anywhere}
+  .impact-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .impact-card{min-width:0;min-height:176px;padding:1.7rem}
+  .impact-card:nth-child(-n+3){grid-column:span 2}
+  .impact-card:nth-child(n+4){grid-column:span 3}
+  .impact-card strong{overflow-wrap:normal;word-break:normal;text-wrap:balance}
+
+  /* Textual authority signals should not impersonate numeric KPIs. */
+  .impact-card:nth-child(2) strong,
+  .impact-card:nth-child(3) strong,
+  .impact-card:nth-child(5) strong{font-size:clamp(1.65rem,2.6vw,2.45rem);line-height:1.08;max-width:11ch}
+
+  /* “International” previously dominated and wrapped awkwardly inside a narrow cell. */
+  .impact-card:nth-child(3) strong{font-family:var(--sans);font-size:.78rem;line-height:1.35;letter-spacing:.16em;text-transform:uppercase;color:#d4a282;margin-bottom:1.3rem;max-width:none}
+  .impact-card:nth-child(3) span{font:400 1.35rem/1.28 var(--serif);max-width:19ch;letter-spacing:-.02em}
+  .impact-card:nth-child(3) small{max-width:30ch}
+}
+
+/* Mid-size desktop: keep the hierarchy but reduce density. */
+@media(min-width:961px) and (max-width:1120px){
+  .impact-card{padding:1.45rem;min-height:168px}
+  .impact-card span{font-size:.88rem}
 }
