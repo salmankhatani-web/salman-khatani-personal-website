@@ -20,10 +20,10 @@ Research explainers added to existing page: 1; short adaptations drafted: 1; ext
 Collaboration/distribution opportunities queued: 1 (no outreach).
 
 ## QA and release boundary
-Structural/SEO validator passed across 23 pages and 841 links/assets; static build passed. Existing sitemap route and canonical retained. Fresh GitHub reads were used as edit bases, preserving unrelated work. GitHub implementation is complete; Cloudflare production requires separate verification. No search indexing, ranking or traffic change established.
+Structural/SEO validator passed across 23 pages and 841 links/assets; static build passed. Existing sitemap route and canonical retained. Fresh GitHub reads were used as edit bases, preserving unrelated work. GitHub implementation is complete. Separate curl GET requests returned HTTP 200 and confirmed the corrected three-author schema and explainer, the new evidence-registry entry, and the new llms guidance on Cloudflare on 6 October 2026. An earlier urllib client returned 403; the successful content checks resolved the production-verification blocker. No search indexing, ranking or traffic change established.
 
 ## Other observed issue
 The live Iqra faculty page still shows the older biography, with expertise/publication headings unfilled in retrieved text. The revised faculty submission must not yet be represented as published.
 
 ## Next best action
-Verify the updated page, registry and llms on Cloudflare; then consider the single co-author distribution opportunity.
+Consider the single co-author distribution opportunity after identity/contact verification and deduplication by the Research Collaboration Engine.
