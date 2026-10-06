@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-06",
   "canonical_person": {
     "name": "Dr. Salman Ahmed Khatani",
     "url": "https://salman-khatani-personal-website.salmankhatani.workers.dev/",
@@ -505,6 +505,28 @@
       "cites_doi": "10.56536/ijmres.v11i4.162",
       "verification_level": "corroborating",
       "last_verified": "2026-10-01"
+    },
+    {
+      "id": "cmsr-workplace-happiness-2025",
+      "source_name": "Center for Management Science Research publisher article and PDF",
+      "source_url": "https://cmsrjournal.com/index.php/Journal/article/view/254",
+      "source_type": "scholarly_publisher",
+      "geography": "Pakistan",
+      "supports": [
+        "Ordered authorship: Salman Ahmed Khatani; Muhammad Ali Wasif; Mahnoor",
+        "Publication date 23 July 2025; volume 3(4), pages 419–430",
+        "Karachi e-commerce workplace-happiness and innovation study"
+      ],
+      "boundaries": [
+        "Convenience-sample survey findings do not establish causation or national representativeness",
+        "Zenodo DOI is supplied by the publisher PDF; repository registration alone does not establish peer review or indexing",
+        "AI adoption is a possible extension, not a tested result"
+      ],
+      "doi": "10.5281/zenodo.16360185",
+      "verification_level": "direct",
+      "last_verified": "2026-10-06",
+      "author_record": "https://salman-khatani-personal-website.salmankhatani.workers.dev/research/workplace-happiness-innovation-2025/",
+      "supporting_url": "https://cmsrjournal.com/index.php/Journal/article/download/254/238/566"
     }
   ],
   "methodology": {
