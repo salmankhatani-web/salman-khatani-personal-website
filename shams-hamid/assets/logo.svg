@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-labelledby="title desc">
+  <title id="title">SH monogram</title><desc id="desc">A minimal SH monogram with an expanding horizon motif.</desc>
+  <rect width="220" height="64" rx="12" fill="#0b1f24"/>
+  <g fill="none" stroke="#79c7b6" stroke-width="2" opacity=".75">
+    <path d="M18 46 C42 18 70 18 94 46"/>
+    <path d="M25 46 C46 25 67 25 87 46" opacity=".55"/>
+  </g>
+  <text x="105" y="42" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#f3efe4">SH</text>
+  <circle cx="188" cy="20" r="5" fill="#d6ad60"/>
+</svg>
