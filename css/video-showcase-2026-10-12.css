@@ -1,0 +1,28 @@
+/* Curated public video showcase — added 12 Oct 2026. Keeps the existing Indus / river / terracotta system. */
+.video-showcase{background:var(--paper);border-top:1px solid var(--border-soft);border-bottom:1px solid var(--border-soft);padding:clamp(4rem,7vw,7rem) 0}
+.document-main .video-showcase{margin:2.5rem calc(50% - 50vw);padding-left:max(3rem,calc((100vw - 1000px)/2));padding-right:max(3rem,calc((100vw - 1000px)/2))}
+.video-showcase .video-head{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr);gap:3rem;align-items:end;margin-bottom:2.5rem}
+.video-showcase .video-head h2{margin-bottom:0;max-width:15ch}
+.video-showcase .video-head p{margin:0;color:var(--muted-text);max-width:46ch}
+.video-showcase-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(280px,.75fr);gap:1.5rem;align-items:stretch}
+.video-feature{background:var(--indus-night);color:var(--warm-sand);border:1px solid #ffffff1a;overflow:hidden}
+.video-embed{position:relative;aspect-ratio:16/9;background:#02080c;overflow:hidden}
+.video-embed iframe{width:100%;height:100%;border:0;display:block}
+.video-copy{padding:1.35rem 1.5rem 1.5rem}
+.video-copy .eyebrow{margin-bottom:.65rem;color:#d4a282}
+.video-copy h3{margin:.1rem 0 .7rem;font-size:clamp(1.55rem,2.6vw,2.1rem);color:var(--warm-sand)}
+.video-copy p{margin:0;color:#c5cfcd;font-size:.92rem;max-width:62ch}
+.video-side{display:grid;grid-template-rows:repeat(2,1fr);gap:1.5rem}
+.video-link-card{position:relative;min-height:220px;padding:1.45rem;display:flex;flex-direction:column;justify-content:flex-end;text-decoration:none;color:var(--indus-night);border:1px solid var(--border-soft);background:linear-gradient(150deg,#ece7da 0%,#f8f3e9 68%,#e6e4d9 100%);overflow:hidden;transition:transform var(--motion),border-color var(--motion),background var(--motion)}
+.video-link-card:before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 82% 18%,#a0523822 0 13%,transparent 14%),linear-gradient(125deg,transparent 0 54%,#285e5a12 54% 56%,transparent 56%);pointer-events:none}
+.video-link-card:hover{transform:translateY(-2px);border-color:#a0523880;background:#fcfaf5;text-decoration:none}
+.video-link-card .play-button{position:absolute;top:1.25rem;right:1.25rem;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:var(--terracotta);color:white;border:1px solid #ffffff88;font-size:1rem;box-shadow:0 8px 26px #08172220}
+.video-link-card .play-button span{transform:translateX(1px)}
+.video-link-card .video-source{font:600 .67rem/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--terracotta);margin-bottom:.75rem;position:relative}
+.video-link-card strong{font:400 clamp(1.35rem,2.2vw,1.75rem)/1.18 var(--serif);max-width:18ch;position:relative}
+.video-link-card small{font-size:.78rem;color:var(--muted-text);margin-top:.8rem;position:relative}
+.video-note{margin-top:1.15rem;font-size:.78rem;color:var(--muted-text)}
+.video-note strong{color:var(--indus-night)}
+@media (max-width:900px){.video-showcase .video-head,.video-showcase-grid{grid-template-columns:1fr}.video-side{grid-template-columns:repeat(2,1fr);grid-template-rows:auto}.document-main .video-showcase{margin-inline:-3rem;padding-inline:3rem}}
+@media (max-width:620px){.video-side{grid-template-columns:1fr}.video-showcase .video-head{gap:1.25rem}.video-link-card{min-height:190px}.document-main .video-showcase{margin-inline:-1.25rem;padding-inline:1.25rem}}
+@media (prefers-reduced-motion:reduce){.video-link-card{transition:none}.video-link-card:hover{transform:none}}

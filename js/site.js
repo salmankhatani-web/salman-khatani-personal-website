@@ -67,3 +67,53 @@ if (download) download.addEventListener('click', () => {
   const anchor = document.createElement('a'); anchor.href = url; anchor.download = 'futures-practice-worksheet.txt'; document.body.append(anchor); anchor.click(); anchor.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
   document.getElementById('ft-feedback').textContent = 'Worksheet downloaded locally; no responses were uploaded by this exercise.';
 });
+
+/* Curated video layer: one muted autoplay feature on the homepage; every other video is user-initiated. */
+(() => {
+  const script = [...document.scripts].find(s => /\/js\/site\.js(?:\?|$)/.test(s.src));
+  if (script && !document.querySelector('link[data-video-showcase]')) {
+    const root = new URL('../', script.src);
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = new URL('css/video-showcase-2026-10-12.css', root).href;
+    link.dataset.videoShowcase = 'true';
+    document.head.append(link);
+  }
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const markup = (autoplay = false) => {
+    const auto = autoplay && !reducedMotion;
+    const params = `rel=0&playsinline=1&controls=1${auto ? '&autoplay=1&mute=1' : ''}`;
+    return `<div class="video-head"><div><span class="eyebrow">Watch · Listen · Explore</span><h2>Ideas in motion.</h2></div><p>Selected public video records showing Dr. Salman Ahmed Khatani's work across AI literacy, futures practice and public dialogue.</p></div>
+    <div class="video-showcase-grid">
+      <article class="video-feature">
+        <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/_To1rQ37xVo?${params}" title="Dr. Salman Ahmed Khatani — AI Foundations and Large Language Models" loading="${auto ? 'eager' : 'lazy'}" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        <div class="video-copy"><span class="eyebrow">Featured · YouTube · AI literacy</span><h3>AI Foundations + Large Language Models</h3><p>Lecture 1 of the AI Generalist Roadmap: a practical introduction to artificial intelligence, LLMs and responsible starting points for learners.</p></div>
+      </article>
+      <div class="video-side">
+        <a class="video-link-card" href="https://www.teachthefuture.org/video" target="_blank" rel="noopener noreferrer" aria-label="Play World Futures Day 2026 session on Teach the Future"><span class="play-button" aria-hidden="true"><span>▶</span></span><span class="video-source">Teach the Future · 53:39</span><strong>AI Futures for Social Good</strong><small>World Futures Day 2026 · Co-facilitated public futures session</small></a>
+        <a class="video-link-card" href="https://www.linkedin.com/posts/salman-khatani-12ab8346_drsalmanahmedkhatani-airevolution-artificialintelligence-activity-7443323209032249344-sPbK" target="_blank" rel="noopener noreferrer" aria-label="Play AI Revolution video on LinkedIn"><span class="play-button" aria-hidden="true"><span>▶</span></span><span class="video-source">LinkedIn · Public video</span><strong>AI Revolution: Risks, Rewards & Future of Humanity</strong><small>AI, creativity, human judgment and the futures we are designing</small></a>
+      </div>
+    </div>
+    <p class="video-note"><strong>Playback note:</strong> only the featured homepage video may start automatically, and it starts muted. All other videos require a click. Visitors using reduced-motion settings will not receive autoplay.</p>`;
+  };
+
+  const homeTarget = document.querySelector('.impact-snapshot');
+  if (homeTarget && !document.getElementById('watch')) {
+    const section = document.createElement('section');
+    section.className = 'video-showcase';
+    section.id = 'watch';
+    section.setAttribute('aria-label', 'Selected public videos');
+    section.innerHTML = `<div class="wrap">${markup(true)}</div>`;
+    homeTarget.insertAdjacentElement('afterend', section);
+  }
+
+  const mediaMain = document.querySelector('main.document-main');
+  const mediaIntro = mediaMain?.querySelector('.intro');
+  if (mediaMain && mediaIntro && /Speaking and Media/i.test(mediaIntro.textContent) && !mediaMain.querySelector('.video-showcase')) {
+    const section = document.createElement('section');
+    section.className = 'video-showcase';
+    section.setAttribute('aria-label', 'Selected public videos');
+    section.innerHTML = markup(false);
+    mediaIntro.insertAdjacentElement('afterend', section);
+  }
+})();
