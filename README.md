@@ -2,7 +2,7 @@
 
 Static editorial website for Dr. Salman Ahmed Khatani, connecting Futures Studies and Foresight, Futures Literacy, Responsible AI and education with Pakistan and the Global South.
 
-Canonical site: https://salmankhatani-web.github.io/salman-khatani-personal-website/
+Canonical site: https://salman-khatani-personal-website.salmankhatani.workers.dev/
 
 ## Preview and validate
 
@@ -30,7 +30,7 @@ Page content lives in each existing HTML file. The new `/futures-practice/` page
 
 ## Validation and deployment
 
-Pull requests run the all-page structural/SEO validator, JavaScript syntax check and shared-shell consistency check. Existing main-branch deployment to GitHub Pages is retained. The repository does not contain a Cloudflare Workers deployment configuration; the canonical production site is hosted on Workers. Confirm the production deployment integration before release. A push to the redesign branch does not invoke the main deployment workflow.
+Pull requests run the all-page structural/SEO validator, JavaScript syntax check and shared-shell consistency check. Existing main-branch deployment to GitHub Pages is retained. Cloudflare Workers is configured in wrangler.jsonc and packages the static website with scripts/build-site.mjs. Verify the production deployment integration and public response after every release. A push to the redesign branch does not invoke the main deployment workflow.
 
 ## Content integrity
 
